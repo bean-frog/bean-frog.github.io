@@ -3,3 +3,8 @@ body {
     font-family: "Titillium Web", sans-serif;
 }
 
+.fcc-btn {
+    background-color: #9146ff;
+    color: white;
+    padding: 15px 25px;
+  }
