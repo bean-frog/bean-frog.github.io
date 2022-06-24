@@ -1,12 +1,5 @@
 body {
     background-color: #CBC3E3;
-
+    font-family: "Titillium Web", sans-serif;
 }
 
-@font-face {
-    font-family: myFirstFont;
-    src: url(https://fonts.gstatic.com/s/titilliumweb/v15/NaPDcZTIAOhVxoMyOr9n_E7ffGjEGIVzY4SY.woff2) format('woff2');
-  }
-  body h1 {
-    font-family: myFirstFont;
-  }
