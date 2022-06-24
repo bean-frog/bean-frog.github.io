@@ -5,7 +5,7 @@ body {
 
 @font-face {
     font-family: myFirstFont;
-    src: url(https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap);
+    src: url(https://fonts.gstatic.com/s/titilliumweb/v15/NaPDcZTIAOhVxoMyOr9n_E7ffGjEGIVzY4SY.woff2) format('woff2');
   }
   body h1 {
     font-family: myFirstFont;
