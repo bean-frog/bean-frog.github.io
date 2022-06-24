@@ -7,14 +7,20 @@ body {
     background-color: #9146ff;
     color: white;
     padding: 15px 25px;
+    border: 2px outset black;
   }
 .youtube-btn {
     background-color: #FF0000;
     color: white;
     padding: 15px 25px;
+    border: 2px outset black;
 }
 .discord-btn {
     background-color: #5865F2;
     color: white;
     padding: 15px 25px;
+    border: 2px outset black;
+}
+.higher {
+    transform: translate(0, 50px);
 }
