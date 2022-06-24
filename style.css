@@ -1,10 +1,20 @@
 body {
-    background-color: #CBC3E3;
+    background-color: #70b4eb;
     font-family: "Titillium Web", sans-serif;
 }
 
-.fcc-btn {
+.twitch-btn {
     background-color: #9146ff;
     color: white;
     padding: 15px 25px;
   }
+.youtube-btn {
+    background-color: #FF0000;
+    color: white;
+    padding: 15px 25px;
+}
+.discord-btn {
+    background-color: #5865F2;
+    color: white;
+    padding: 15px 25px;
+}
