@@ -14,6 +14,21 @@ body {
             animation: bg 30s infinite;
 }
 
+.spacerDiv {
+  text-align: center;
+}
+
+.socialsDiv {
+   display: flex;
+   background-attachment: local "script.js";
+   text-align: center;
+   flex-direction: column;
+}
+.projectsDiv {
+    background-attachment: local "script.js";
+   text-align: center;
+}
+
 .twitch-btn {
   
     background-color: #9146ff;
@@ -36,7 +51,22 @@ body {
     color: white;
     padding: 15px 25px;
     border: 2px outset black;
+  }
+
+.arduino1-btn {
+  background-color: #3186a0;
+  color: white;
+  padding: 10px 20px;
+  border: 2px outset black;
 }
+
+.github-btn {
+  background-color: #171515;
+  color: white;
+  padding: 10px 20px;
+  border: 2px outset black;
+}
+
 .higher {
     transform: translate(0, 50px);
 }
