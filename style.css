@@ -12,10 +12,19 @@ body {
   -webkit-animation: bg 30s infinite;
           animation: bg 30s infinite;
   background-attachment: fixed;
+
+  
+}
+
+.h1 {
+  text-align: center;
 }
 
 .spacerDiv {
 text-align: center;
+}
+.spacerDivButSlightlySmallerBecauseSomethingIsWrongWithTheTitleAndINeedASpacerDivButSlightlySmaller {
+  text-align: center;
 }
 
 .socialsDiv {
