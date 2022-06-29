@@ -83,8 +83,39 @@ padding: 5px 10px;
 border: 2px outset black;
 }
 
+.pageSwitch-btn {
+background-color: #474747;
+color: white;
+padding: 5px 10px;
+border: 2px outset black;
+}
+
 .higher {
   transform: translate(0, 50px);
+}
+
+.customAlert {
+  display: none;
+  position: fixed;
+  max-width: 25%;
+  min-width: 250px !important;
+  min-height: 20%;
+  height: 200px;
+  bottom: 5px;
+  right: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-left: -12.5%;
+  margin-top: -5.2%;
+  background: #FF0000;
+  border: 3px inset black;
+  
+}
+.customAlert .message {
+  padding: 5px;
+  color: white;
+  font-size: 17px;
+  line-height: 20px;
 }
 
 #gradient
