@@ -1,0 +1,56 @@
+.socialsDiv {
+    display: flex;
+    background-attachment: local "script.js";
+    text-align: center;
+    flex-direction: column;
+   }
+   .projectsDiv {
+     background-attachment: local "script.js";
+    text-align: center;
+   }
+   
+   .twitch-btn {
+   
+     background-color: #9146ff;
+     color: white;
+     padding: 15px 25px;
+     width: 10%;
+     border: 2px outset black;
+     margin: 0 auto;
+   
+     
+   }
+   .youtube-btn {
+   
+     background-color: #FF0000;
+     color: white;
+     padding: 15px 25px;
+     width: 10%;
+     border: 2px outset black;
+     margin: 0 auto;
+     
+   }
+   .discord-btn {
+   
+     background-color: #5865F2;
+     color: white;
+     padding: 15px 25px;
+     width: 10%;
+     border: 2px outset black;
+     margin: 0 auto;
+   }
+   
+   .arduino1-btn {
+   background-color: #3186a0;
+   color: white;
+   padding: 5px 10px;
+   border: 2px outset black;
+   }
+   
+   .github-btn {
+   background-color: #171515;
+   color: white;
+   padding: 5px 10px;
+   border: 2px outset black;
+   }
+
