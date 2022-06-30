@@ -22,8 +22,8 @@ body {
 
 .headerDiv {
   text-align: right;
-  background-color: #fff;
-  border: 2px inset gray;
+  background-color: #6497b1;
+  border: 2px inset black;
   padding-top: 30px;
 }
 
@@ -37,7 +37,7 @@ text-align: center;
 
 
 .pageSwitch-btn {
-background-color: #777777;
+background-color: #035b96;
 color: white;
 padding: 5px 10px;
 border: 2px outset black;
@@ -76,30 +76,30 @@ margin: 0px;
 
 @-webkit-keyframes bg {
   0%, 100% {
-    background-color: #1e90ff;
+    background-color: #031f4b;
   }
   25% {
-    background-color: #39d24a;
+    background-color: #04396c;
   }
   50% {
-    background-color: #ffe244;
+    background-color: #035b96;
   }
   75% {
-    background-color: #ff36a3;
+    background-color: #6497b1;
   }
 }
 
 @keyframes bg {
   0%, 100% {
-    background-color: #1e90ff;
+    background-color: #031f4b;
   }
   25% {
-    background-color: #39d24a;
+    background-color: #04396c;
   }
   50% {
-    background-color: #ffe244;
+    background-color: #035b96;
   }
   75% {
-    background-color: #ff36a3;
+    background-color: #6497b1;
   }
 }
