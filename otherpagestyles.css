@@ -8,6 +8,10 @@
      background-attachment: local "script.js";
     text-align: center;
    }
+
+   .gamesDiv {
+     text-align: center;
+   }
    
    .twitch-btn {
    
