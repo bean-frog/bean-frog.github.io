@@ -15,6 +15,15 @@ body {
 
   
 }
+.tbox1{
+  width: 600px;
+  height: 400px;
+  text-align: center;
+}
+p {
+  text-align: center;
+ 
+}
 
 .h1 {
   text-align: center;
@@ -23,6 +32,13 @@ body {
 .headerDiv {
   text-align: right;
   background-color: #6497b1;
+  border: 2px outset black;
+  padding-top: 30px;
+}
+
+.fakeheaderDiv {
+  text-align: left;
+  background-color: #0776ba;
   border: 2px inset black;
   padding-top: 30px;
 }
@@ -41,6 +57,8 @@ background-color: #035b96;
 color: white;
 padding: 5px 10px;
 border: 2px outset black;
+text-align:right;
+position:relative;
 }
 
 .higher {
