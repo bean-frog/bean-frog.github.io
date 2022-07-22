@@ -3,10 +3,12 @@
     background-attachment: local "script.js";
     text-align: center;
     flex-direction: column;
+    background: rgba(24,87,125, 0.8)
    }
    .projectsDiv {
      background-attachment: local "script.js";
     text-align: center;
+    background: rgba(24,87,125, 0.8);
    }
    .gamesDiv {
      text-align: center;
