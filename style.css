@@ -4,7 +4,7 @@ body {
   padding: 0px;
   margin: 0px;
   height: 100vh;
-  background-image:  url('https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?crop=entropy&fit=crop&fm=jpg&h=950&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925');
+  background-image:  url('https://images.unsplash.com/photo-1527100673774-cce25eafaf7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY1ODQzNTc1OA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080');
   background-attachment: fixed;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -21,15 +21,17 @@ p {
 }
 .h1 {
   text-align: center;
+  
 }
 .headerDiv {
   text-align: right;
-  background-color: #ced4d4;
+  background-color: #2B7097;
   border: 2px outset black;
   padding-top: 30px;
   position:fixed;
   width: 100%;
   top: 0;
+  z-index: 1;
 }
 #footer {
   text-align: right;
@@ -44,7 +46,7 @@ p {
 text-align: center;
 }
 .pageSwitch-btn {
-background-color: #8e9390;
+background-color: #57666d;
 color: white;
 padding: 5px 10px;
 border: 2px outset #1d2022;
@@ -54,23 +56,10 @@ position:relative;
 .higher {
   transform: translate(0, 50px);
 }
-.customAlert {
-  display: none;
-  position: fixed;
-  max-width: 25%;
-  min-width: 250px !important;
-  min-height: 20%;
-  height: 200px;
-  bottom: 5px;
-  right: 5px;
-  padding: 10px;
-  box-sizing: border-box;
-  margin-left: -12.5%;
-  margin-top: -5.2%;
-  background: #FF0000;
-  border: 3px inset black;
-  
+.heading1 {
+  font-size: 10vw;
+  text-shadow: 4px 4px 0px white;
+  mix-blend-mode: screen;
+  animation: fadeIn 2.5s linear forwards;
+  color: 010203;
 }
-
-
-
