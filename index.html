@@ -6,7 +6,7 @@
                 <title>bean_frog</title>
                 <link rel="stylesheet" href="style.css">
                 <link rel="stylesheet" href="otherpagestyles.css">
-                <link rel="stylesheet" href="buttonani.scss">
+                <link rel="stylesheet" href="adspace.css">
                 <link rel = "icon" href = "https://i.imgur.com/R8sxZE9.png"   type = "image/x-icon">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
@@ -15,6 +15,12 @@
             a {text-align: center;}
             p {text-align: center;}
             </style>
+            <script>
+                function buttonGoBrrrr() { 
+                    document.getElementById("mainFrameOne").style.display="none"; 
+                    document.getElementById("mainFrameTwo").style.display="block"; 
+                }
+                </script>
         </head>
         <body>
             <div class="headerDiv" style="height: 60px;">
@@ -25,11 +31,19 @@
                 <a target="_blank" class="pageSwitch-btn" href="changes.html">changelog</a>
             </div>
             <div class="spacerDiv" style="height:50px" id="top"></div>
-            <h1>THE BEANsITE</h1>
-            <h2>Socials, projects, and more!</h2>
-            <p>[v1.90] </p>
-            <footer>test</footer>
-            <div class="spacerDiv" style="height:1000px"></div>
+            <h1 class="heading1">THE BEANsITE</h1>
+            <h2 style="color:white">Socials, projects, and more!</h2>
+            <p style="color:white">[v1.90] </p>
+            <div id="mainFrameOne" class="customAlert" style="animation: 0s ease 0s 1 normal none running none; display: inline;">
+                <h2 class="message2"> <b>HEY YOU!</b></h2>
+                <p class="message">are you a weak little shit? want gains? try FOREVERGRIND now! </p>
+                <!--insert link here-->
+
+                <div class="spacerDiv" style="height:10px"></div>
+                <button  onclick="buttonGoBrrrr()"class="confirmButton" value="Ok" >Close</button>
+              </div>
+              <div id="mainFrameTwo"></div>
+            <div class="spacerDiv" style="height:500px"></div>
            <div id="sdown" class="spacerDiv" style="height:1px"></div>
             <div>
                 <div class="socialsDiv" style="height:500px; border: 2px outset black">
@@ -40,7 +54,7 @@
                     <div class="spacerDiv" style="height: 10px;"></div>
                     <a target="_blank" class="discord-btn" href="https://discord.gg/m67MzEWbNK"> DISCORD </a>
                     <div class="spacerDiv" style="height:10px"></div>
-                    <a target="_blank" class="discord-btn" style="background-color: black">GITHUB</a>
+                    <a target="_blank" class="discord-btn" href="https://github.com/bean-frog"  style="background-color: black">GITHUB</a>
                 </div>
                 <div class="spacerDiv" style="height:200px"></div>
             </div>
