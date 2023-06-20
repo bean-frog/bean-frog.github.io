@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,27 +7,30 @@
   <link href="https://cdn.jsdelivr.net/npm/daisyui@1.13.0/dist/full.css" rel="stylesheet">
   <title>bean_frog portfolio</title>
   <style>
-    body {
-      font-family: sans-serif;
-    }
+    body {font-family: sans-serif;}
   </style>
 </head>
-
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8PHX1Y2CBG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-8PHX1Y2CBG');
+</script>
 <body class="bg-gray-900 text-white">
-
-    <header class="py-4 bg-gray-800">
+    <header class="py-4 pl-10 bg-gray-800">
         <div class="container mx-auto">
           <h1 class="text-2xl font-bold">Skills</h1>
         </div>
       </header>
-    
       <main class="container mx-auto py-12">
-        <header class="py-4">
+        <header class="py-4 pl-10">
             <div class="container mx-auto">
               <h1 class="text-2xl font-bold">I'm Proficient in</h1>
             </div>
           </header>
-        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div class="pl-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           <div class="bg-gray-800 rounded-lg shadow-lg p-6 flex items-center">
             <img src="https://skillicons.dev/icons?i=javascript" class="mr-4">
             <h2 class="text-xl font-bold">Javascript</h2>
@@ -46,15 +48,13 @@
             <img src="https://skillicons.dev/icons?i=arduino" class="mr-4">
             <h2 class="text-xl font-bold">C++ (Arduino)</h2>
           </div>
-          
-          
         </div>
-        <header class="py-4">
+        <header class="py-4 pl-10">
             <div class="container mx-auto">
               <h1 class="text-2xl font-bold">I'm pretty good at</h1>
             </div>
           </header>
-          <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+          <div class="pl-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             <div class="bg-gray-800 rounded-lg shadow-lg p-6 flex items-center">
               <img src="https://skillicons.dev/icons?i=electron" class="mr-4">
               <h2 class="text-xl font-bold">ElectronJS</h2>
@@ -68,12 +68,12 @@
                 <h2 class="text-xl font-bold">NodeJS</h2>
               </div>
             </div>
-            <header class="py-4">
+            <header class="py-4 pl-10">
                 <div class="container mx-auto">
                   <h1 class="text-2xl font-bold">I'm learning/Want to learn</h1>
                 </div>
               </header>
-              <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+              <div class="pl-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
                 <div class="bg-gray-800 rounded-lg shadow-lg p-6 flex items-center">
                   <img src="https://skillicons.dev/icons?i=cpp,cs" class="mr-4">
                   <h2 class="text-xl font-bold">C-family</h2>
@@ -95,31 +95,45 @@
                     <h2 class="text-xl font-bold">How to exit Vim</h2>
                   </div>
       </main>
-    
-
-  <header class="py-4 bg-gray-800">
+  <header class="py-4 pl-10 bg-gray-800">
     <div class="container mx-auto">
       <h1 class="text-2xl font-bold">Projects</h1>
     </div>
   </header>
-
   <main class="container mx-auto py-12">
-    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+    <div class=" pl-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <a href="projects/pva.html">
       <div class="bg-gray-800 rounded-lg shadow-lg p-6">
-        <h2 class="text-xl font-bold mb-4">Project 1</h2>
-        <p class="text-gray-400">Description of Project 1</p>
+        <div class="flex items-center">
+          <h2 class="text-xl font-bold mb-4">PVA</h2>
+          <span class="badge badge-warning inline-block ml-2 px-2 py-1 text-xs font-semibold text-white uppercase bg-yellow-500">Beta</span>
+        </div>
+        <p class="text-gray-400">Personal Verbal Abuser for studying</p>
       </div>
+      </a>
+      <a href="projects/beancord.html">
       <div class="bg-gray-800 rounded-lg shadow-lg p-6">
-        <h2 class="text-xl font-bold mb-4">Project 2</h2>
-        <p class="text-gray-400">Description of Project 2</p>
+        <div class="flex items-center">
+          <h2 class="text-xl font-bold mb-4">Beancord</h2>
+          <span class="badge badge-warning inline-block ml-2 px-2 py-1 text-xs font-semibold text-white uppercase bg-yellow-500">Beta</span>
+        </div>
+        <p class="text-gray-400">Customized lightweight Discord Client</p>
       </div>
+      </a>
+      <a href="projects/guild.html">
       <div class="bg-gray-800 rounded-lg shadow-lg p-6">
-        <h2 class="text-xl font-bold mb-4">Project 3</h2>
-        <p class="text-gray-400">Description of Project 3</p>
+        <h2 class="text-xl font-bold mb-4">Assassins Guild Tools</h2>
+        <p class="text-gray-400">Tools to manage the Paly Game of Assassins</p>
       </div>
+      </a>
+      <a href="projects/stylemods.html">
+      <div class="bg-gray-800 rounded-lg shadow-lg p-6">
+        <h2 class="text-xl font-bold mb-4">Stylemods</h2>
+        <p class="text-gray-400">Styling changes to various sites</p>
+      </div>
+      </a>
     </div>
   </main>
-
   <footer class="py-2 bg-gray-700 text-gray-400">
     <div class="container mx-auto text-center text-sm">
       &copy; 2023 bean_frog. All rights reserved.
