@@ -1,1 +1,6 @@
-//insert json here
+{
+  "game": true,
+  "gamemode": "scf",
+  "mod": "graeme",
+  "players": ["lucas", "max", "jade", "william", "ash", "ming"]
+}
