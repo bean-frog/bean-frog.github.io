@@ -1,5 +1,5 @@
 {
-  "game": true,
+  "game": false,
   "gamemode": "scf",
   "mod": "graeme",
   "players": ["lucas", "max", "jade", "william", "ash", "ming"]
