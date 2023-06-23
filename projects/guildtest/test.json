@@ -1,6 +1,6 @@
 {
   "game": true,
-  "gamemode": "scf",
+  "gamemode": "Supercharged Frenzy",
   "mod": "graeme",
   "playersalive": ["lucas", "max", "jade", "william", "ash", "ming"],
   "playersdead" : ["leif", "alena", "eliza", "spencer"],
