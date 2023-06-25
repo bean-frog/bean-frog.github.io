@@ -1,6 +1,6 @@
 {
   "game": true,
-  "gamemode": "Supercharged Frenzy",
+  "gamemode": "Zombies",
   "mod": "graeme",
   "playersalive": ["lucas", "max", "jade", "william", "ash", "ming"],
   "playersdead" : ["leif", "alena", "eliza", "spencer"],
