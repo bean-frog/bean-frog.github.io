@@ -5,6 +5,8 @@
   "playersalive": ["lucas", "max", "jade", "william", "ash", "ming"],
   "playersdead" : ["leif", "alena", "eliza", "spencer"],
   "playersundead": ["n/a"],
+  "zombie": ["lucas"],
+  "zombierevealed": true,
   "team1": ["n/a"],
   "team2": ["n/a"],
   "team3": ["n/a"],
