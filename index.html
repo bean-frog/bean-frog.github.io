@@ -19,18 +19,33 @@
   gtag('config', 'G-8PHX1Y2CBG');
 </script>
 <body class="bg-gray-900 text-white">
-    <header class="py-4 pl-10 bg-gray-800">
-        <div class="container mx-auto">
-          <h1 class="text-2xl font-bold">Skills</h1>
-        </div>
-      </header>
-      <main class="container mx-auto py-12">
-        <header class="py-4 pl-10">
+  <div class="relative z-40">
+    <canvas class="absolute inset-0 w-full" id="c"></canvas>
+  </div>
+  
+
+  <header class="py-4 px-10 relative z-50">
+    <div class="container text-center">
+      <h1 class="text-3xl font-bold">bean_frog</h1>
+    </div>
+  </header>
+
+  <main class="container mx-auto py-12 z-50">
+
+  </main>
+
+  <header id="skills" class="py-4 px-10 bg-gray-800 relative z-40">
+    <div class="container mx-auto">
+      <h1 class="text-2xl font-bold">Skills</h1>
+    </div>
+  </header>
+      <main class="container mx-auto py-12 z-50">
+        <header class="py-4 px-10">
             <div class="container mx-auto">
               <h1 class="text-2xl font-bold">I'm Proficient in</h1>
             </div>
           </header>
-        <div class="pl-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div class="px-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           <div class="bg-gray-800 rounded-lg shadow-lg p-6 flex items-center">
             <img src="https://skillicons.dev/icons?i=javascript" class="mr-4">
             <h2 class="text-xl font-bold">Javascript</h2>
@@ -49,12 +64,12 @@
             <h2 class="text-xl font-bold">C++ (Arduino)</h2>
           </div>
         </div>
-        <header class="py-4 pl-10">
+        <header class="py-4 px-10">
             <div class="container mx-auto">
               <h1 class="text-2xl font-bold">I'm pretty good at</h1>
             </div>
           </header>
-          <div class="pl-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+          <div class="px-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             <div class="bg-gray-800 rounded-lg shadow-lg p-6 flex items-center">
               <img src="https://skillicons.dev/icons?i=electron" class="mr-4">
               <h2 class="text-xl font-bold">ElectronJS</h2>
@@ -68,12 +83,12 @@
                 <h2 class="text-xl font-bold">NodeJS</h2>
               </div>
             </div>
-            <header class="py-4 pl-10">
+            <header class="py-4 px-10">
                 <div class="container mx-auto">
                   <h1 class="text-2xl font-bold">I'm learning/Want to learn</h1>
                 </div>
               </header>
-              <div class="pl-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+              <div class="px-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
                 <div class="bg-gray-800 rounded-lg shadow-lg p-6 flex items-center">
                   <img src="https://skillicons.dev/icons?i=cpp,cs" class="mr-4">
                   <h2 class="text-xl font-bold">C-family</h2>
@@ -95,13 +110,13 @@
                     <h2 class="text-xl font-bold">How to exit Vim</h2>
                   </div>
       </main>
-  <header class="py-4 pl-10 bg-gray-800">
+  <header class="py-4 px-10 bg-gray-800 z-50">
     <div class="container mx-auto">
       <h1 class="text-2xl font-bold">Projects</h1>
     </div>
   </header>
-  <main class="container mx-auto py-12">
-    <div class=" pl-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+  <main class="container mx-auto py-12 z-50">
+    <div class=" px-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
       <a href="projects/pva.html">
       <div class="bg-gray-800 rounded-lg shadow-lg p-6">
         <div class="flex items-center">
@@ -120,7 +135,7 @@
         <p class="text-gray-400">Customized lightweight Discord Client</p>
       </div>
       </a>
-      <a href="projects/guild.html">
+      <a href="projects/guild/">
       <div class="bg-gray-800 rounded-lg shadow-lg p-6">
         <h2 class="text-xl font-bold mb-4">Assassins Guild Tools</h2>
         <p class="text-gray-400">Tools to manage the Paly Game of Assassins</p>
@@ -132,6 +147,15 @@
         <p class="text-gray-400">Styling changes to various sites</p>
       </div>
       </a>
+      <a href="projects/tuneguessr.html">
+        <div class="bg-gray-800 rounded-lg shadow-lg p-6">
+          <div class="flex items-center">
+            <h2 class="text-xl font-bold mb-4">Tuneguessr</h2>
+            <span class="badge badge-error inline-block ml-2 px-2 py-1 text-xs font-semibold text-white uppercase bg-yellow-500">Unreleased</span>
+          </div>
+          <p class="text-gray-400">A game similar to GeoGuessr, but you guess the country based on a song from that country.</p>
+        </div>
+        </a>
     </div>
   </main>
   <footer class="py-2 bg-gray-700 text-gray-400">
@@ -140,5 +164,5 @@
     </div>
   </footer>
 </body>
-
+<script src="animations.js"></script>
 </html>
