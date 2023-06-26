@@ -1,7 +1,7 @@
 {
   "game": true,
   "gamemode": "Teams",
-  "mod": "graeme",
+  "mod": "Graeme",
   "playersalive": ["lucas", "max", "jade", "william", "ash", "ming"],
   "playersdead" : ["leif", "alena", "eliza", "spencer"],
   "playersundead": ["example_undead"],
