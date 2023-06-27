@@ -1,6 +1,6 @@
 {
   "game": true,
-  "gamemode": "Teams",
+  "gamemode": "Zombies",
   "mod": "Graeme",
   "playersalive": ["lucas", "max", "jade", "william", "ash", "ming"],
   "playersdead" : ["leif", "alena", "eliza", "spencer"],
