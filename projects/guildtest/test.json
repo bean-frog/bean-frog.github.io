@@ -1,26 +1,44 @@
 {
-  "game": true,
-  "gamemode": "Supercharged Frenzy",
-  "mod": "Graeme",
-  "playersalive": ["lucas", "max", "jade", "william", "ash", "ming"],
-  "playersdead" : ["leif", "alena", "eliza", "spencer"],
-  "playersundead": ["example_undead"],
-  "zombie": ["lucas"],
-  "zombierevealed": true,
-  "team1": ["example_team1", "example_team1", "example_team1"],
-  "team2": ["example_team2", "example_team2", "example_team2"],
-  "team3": ["example_team3", "example_team3", "example_team3"],
-  "classic": ["example_classic"],
-  "oxford": ["example_oxford"],
-  "evasive": ["example_evasive"],
-  "poison": ["example_poison"],
-  "overkill": ["example_overkill"],
-  "troll": ["example_troll"],
-  "supercharged": ["example_supercharged"],
-  "battery": ["example_battery"],
-  "radioactive": ["example_radioactive"],
-  "solar": ["example_solar"],
-  "stealth": ["example_stealth"],
-  "electromagnet": ["example_electromagnet"],
-  "killfeed": ["lucas-max", "jade-william", "ash-spencer", "max-jade", "bob-joe", "tom-jerry", "coyote-roadrunner", "your-mom", "deez-nuts"]
+    "game": true,
+    "gamemode": "Supercharged Frenzy",
+    "mod": "Graeme",
+    "zombie": ["lucas"],
+    "zombierevealed": true,
+    "classic": ["example_classic"],
+    "oxford": ["example_oxford"],
+    "evasive": ["example_evasive"],
+    "poison": ["example_poison"],
+    "overkill": ["example_overkill"],
+    "troll": ["example_troll"],
+    "supercharged": ["example_supercharged"],
+    "battery": ["example_battery"],
+    "radioactive": ["example_radioactive"],
+    "solar": ["example_solar"],
+    "stealth": ["example_stealth"],
+    "electromagnet": ["example_electromagnet"],
+    "killfeed": ["lucas-max", "jade-william", "ash-spencer", "max-jade", "bob-joe", "tom-jerry", "coyote-roadrunner", "your-mom", "deez-nuts"],
+    "players": [
+        {
+            "name": "example_player",
+            "status": "alive",
+            "class": "example_class",
+            "timers": ["example_name-example_value"],
+            "team": "team1",
+            "points": "69420"
+
+        },
+        {
+            "name": "example_player_2",
+            "status": "alive",
+            "class": "example_class_2",
+            "timers": ["example_name_2-example_value_2"],
+            "team": "team2",
+            "points": "42069"
+
+        }
+
+        
+    ]
+
+    
 }
