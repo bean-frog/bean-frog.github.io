@@ -35,6 +35,24 @@
             "team": "team2",
             "points": "42069"
 
+        },
+        {
+            "name": "example_player_3",
+            "status": "alive",
+            "class": "example_class_3",
+            "timers": ["example_name_3-example_value_3"],
+            "team": "team1",
+            "points": "42069"
+
+        },
+        {
+            "name": "example_player_4",
+            "status": "alive",
+            "class": "example_class_4",
+            "timers": ["example_name_4-example_value_4"],
+            "team": "team2",
+            "points": "42069"
+
         }
 
         
