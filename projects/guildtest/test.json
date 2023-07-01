@@ -4,18 +4,6 @@
     "mod": "Graeme",
     "zombie": ["lucas"],
     "zombierevealed": true,
-    "classic": ["example_classic"],
-    "oxford": ["example_oxford"],
-    "evasive": ["example_evasive"],
-    "poison": ["example_poison"],
-    "overkill": ["example_overkill"],
-    "troll": ["example_troll"],
-    "supercharged": ["example_supercharged"],
-    "battery": ["example_battery"],
-    "radioactive": ["example_radioactive"],
-    "solar": ["example_solar"],
-    "stealth": ["example_stealth"],
-    "electromagnet": ["example_electromagnet"],
     "killfeed": ["lucas-max", "jade-william", "ash-spencer", "max-jade", "bob-joe", "tom-jerry", "coyote-roadrunner", "your-mom", "deez-nuts"],
     "players": [
         {
@@ -24,7 +12,8 @@
             "class": "example_class",
             "timers": ["example_name-example_value"],
             "team": "team1",
-            "points": "69420"
+            "points": "69420",
+            "lastactivity": "5/1"
 
         },
         {
@@ -33,7 +22,8 @@
             "class": "example_class_2",
             "timers": ["example_name_2-example_value_2"],
             "team": "team2",
-            "points": "42069"
+            "points": "42069",
+            "lastactivity": "5/1"
 
         },
         {
@@ -42,7 +32,8 @@
             "class": "example_class_3",
             "timers": ["example_name_3-example_value_3"],
             "team": "team1",
-            "points": "42069"
+            "points": "42069",
+            "lastactivity": "5/1"
 
         },
         {
@@ -51,7 +42,8 @@
             "class": "example_class_4",
             "timers": ["example_name_4-example_value_4"],
             "team": "team2",
-            "points": "42069"
+            "points": "42069",
+            "lastactivity": "5/1"
 
         }
 
