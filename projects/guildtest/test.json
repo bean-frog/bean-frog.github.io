@@ -10,7 +10,7 @@
             "name": "example_player",
             "status": "alive",
             "class": "example_class",
-            "timers": ["example_name-example_value"],
+            "respawntimer": [],
             "team": "team1",
             "points": "69420",
             "lastactivity": "5/1"
@@ -18,9 +18,9 @@
         },
         {
             "name": "example_player_2",
-            "status": "alive",
+            "status": "dead",
             "class": "example_class_2",
-            "timers": ["example_name_2-example_value_2"],
+            "respawntimer": ["2"],
             "team": "team2",
             "points": "42069",
             "lastactivity": "5/1"
@@ -30,7 +30,7 @@
             "name": "example_player_3",
             "status": "alive",
             "class": "example_class_3",
-            "timers": ["example_name_3-example_value_3"],
+            "respawntimer": [],
             "team": "team1",
             "points": "42069",
             "lastactivity": "5/1"
@@ -40,7 +40,7 @@
             "name": "example_player_4",
             "status": "alive",
             "class": "example_class_4",
-            "timers": ["example_name_4-example_value_4"],
+            "respawntimer": [],
             "team": "team2",
             "points": "42069",
             "lastactivity": "5/1"
@@ -50,7 +50,7 @@
             "name": "example_player_5",
             "status": "alive",
             "class": "example_class_5",
-            "timers": ["example_name_5-example_value_5"],
+            "respawntimer": [],
             "team": "team1",
             "points": "42069",
             "lastactivity": "5/1"
@@ -60,7 +60,7 @@
             "name": "example_player_6",
             "status": "alive",
             "class": "example_class_6",
-            "timers": ["example_name_6-example_value_6"],
+            "respawntimer": [],
             "team": "team2",
             "points": "42069",
             "lastactivity": "5/1"
