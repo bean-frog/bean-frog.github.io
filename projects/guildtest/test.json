@@ -9,7 +9,7 @@
     "killfeed": ["lucas-max", "jade-william", "ash-spencer", "max-jade", "bob-joe", "tom-jerry", "coyote-roadrunner", "your-mom", "deez-nuts"],
     "players": [
         {
-            "name": "example_player",
+            "name": "max",
             "status": "alive",
             "class": "example_class",
             "respawntimer": [],
