@@ -2,8 +2,10 @@
     "game": true,
     "gamemode": "Supercharged Frenzy",
     "mod": "Graeme",
-    "zombie": ["lucas"],
+    "zombie": "lucas",
     "zombierevealed": true,
+    "leader": "max",
+    "leaderrevealed": true,
     "killfeed": ["lucas-max", "jade-william", "ash-spencer", "max-jade", "bob-joe", "tom-jerry", "coyote-roadrunner", "your-mom", "deez-nuts"],
     "players": [
         {
