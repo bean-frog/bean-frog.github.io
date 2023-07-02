@@ -45,6 +45,26 @@
             "points": "42069",
             "lastactivity": "5/1"
 
+        },
+        {
+            "name": "example_player_5",
+            "status": "alive",
+            "class": "example_class_5",
+            "timers": ["example_name_5-example_value_5"],
+            "team": "team1",
+            "points": "42069",
+            "lastactivity": "5/1"
+
+        },
+        {
+            "name": "example_player_6",
+            "status": "alive",
+            "class": "example_class_6",
+            "timers": ["example_name_6-example_value_6"],
+            "team": "team2",
+            "points": "42069",
+            "lastactivity": "5/1"
+
         }
 
         
