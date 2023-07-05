@@ -22,8 +22,8 @@ c.width = window.innerWidth;
 c.height = dist
 
 
-var chinese = "$^#*@^%#&@!<>?/~`:;";
-chinese = chinese.split("");
+var chars = "ツぅぁづぬあブヷスろむ";
+chars = chars.split("");
 
 var font_size =10;
 var columns = c.width/font_size; 
@@ -43,7 +43,7 @@ function draw(){
   
   
   for(var i=0;i<drops.length;i++){
-    var text = chinese[Math.floor(Math.random()*chinese.length)];
+    var text = chars[Math.floor(Math.random()*chars.length)];
     cxt.fillText(text,i*font_size,drops[i]*font_size);
     
     if(drops[i]*font_size>c.height && Math.random() >0.975)
