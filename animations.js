@@ -1,25 +1,9 @@
- // Get the height of the header
- var dist = calculateDist();
-
- // Calculate the initial distance
- function calculateDist() {
-   var skillsHeader = document.getElementById("skills");
-   var rect = skillsHeader.getBoundingClientRect();
-   return rect.top + window.scrollY;
- }
-  window.addEventListener("resize", updateDist);
- window.addEventListener("scroll", updateDist);
- 
- function updateDist() {
-   dist = calculateDist();
- }
 
 //matrix
 var c = document.getElementById('c');
 var cxt = c.getContext("2d");
 
 c.width = window.innerWidth;
-c.height = dist
 
 
 var chars = "ツぅぁづぬあブヷスろむ";
@@ -52,6 +36,6 @@ function draw(){
     //increment y coordinate
     drops[i]++;
 }
-  
+
 }
 setInterval(draw,50);
