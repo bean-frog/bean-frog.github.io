@@ -23,10 +23,28 @@
     <canvas class="absolute inset-0 w-full" id="c"></canvas>
   </div>
   
-
+<script>
+  const balls = [
+    "I do things, just not very well",
+    "mid developer lol",
+    "React sucks (cry about it)",
+    "Tailwind enjoyer",
+    "404: brain not found",
+    "do it for ken",
+    "#kb43evr"
+ 
+  ];
+  function nineteendollafortnitecard() {
+    const randomIndex = Math.floor(Math.random() * balls.length);
+    const qotdElement = document.getElementById("qotd");
+    qotdElement.textContent = balls[randomIndex];
+  }
+  document.addEventListener("DOMContentLoaded", nineteendollafortnitecard);
+</script>
   <header class="py-4 px-10 relative z-50">
     <div class="container text-center">
-      <h1 class="text-3xl font-bold">bean_frog</h1>
+      <h1 class="text-3xl font-bold">bean_frog</h1><br>
+      <h1 class="text-xl font-semibold" id="qotd"></h1>
     </div>
   </header>
 
