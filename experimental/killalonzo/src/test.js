@@ -6,11 +6,13 @@ const scene = new THREE.Scene();
 			renderer.setSize( window.innerWidth, window.innerHeight );
 			renderer.setClearColor(0x00C9FF)
 			document.body.appendChild( renderer.domElement );
-
-			//dont touch these 3
+			
+			//dont touch these 4
 			var hits = 0
 			var misses = 0
 			var size = 0.5
+			var sens = 250 //aim sensitivity, changed with + or - keys
+
       //color customization
       var wallColor = 0x242526;
       var floorColor = 0xffffff;
@@ -18,16 +20,19 @@ const scene = new THREE.Scene();
 
 	//interval at which alonzo moves randomly in ms
 	  var randomMovementInterval = 5000;
-      const loader = new THREE.CubeTextureLoader();
-	  loader.setPath( './assets/cubetextures/' );
-
-      const textureCube = loader.load( [
-          'px.png', 'nx.png',
-          'py.png', 'ny.png',
-          'pz.png', 'nz.png'
-      ] );
+	  
+	var src = "https://static.miraheze.org/snapwikiwiki/6/6e/Alonzo.png"
+	var image = new Image();
+	image.src = src;
+	cube_texture = new THREE.Texture();
+  cube_texture.image = image;
+  image.onload = function() {
+    cube_texture.needsUpdate = true;
+  };
+     
 			const geometry = new THREE.BoxGeometry();
-            const material = new THREE.MeshStandardMaterial( { envMap: textureCube } );			const cube = new THREE.Mesh( geometry, material );
+			const material = new THREE.MeshBasicMaterial({map: cube_texture, overdraw: true});
+			const cube = new THREE.Mesh( geometry, material );
 			cube.health = 1
 			cube.name = 'alonzo'
 			cube.position.x = Math.floor(Math.random() * 9.5 - 4.5)
@@ -82,18 +87,15 @@ const scene = new THREE.Scene();
 			walls.south.scale.y = 10
 			scene.add(walls.south)
 
-			const light = new THREE.PointLight( 0xffffff, 3, 100 );
-			light.position.set(0, 10, 0)
+			const light = new THREE.HemisphereLight( 0xffffff, 0x242526, 1 );
+						light.position.set(0, 10, 0)
 			light.castShadows = true
       scene.add(light);
-      const light2 = new THREE.PointLight( 0xffffff, 3, 100 );
+	  const light2 = new THREE.PointLight( 0xffffff, 3, 100 );
       light2.position.set(10, 10, 0);
       light2.castShadows = true;
       scene.add(light2);
-const light3 = new THREE.PointLight( 0xffffff, 3, 100 );
-      light3.position.set(0, 10, 10);
-      light3.castShadows = true;
-      scene.add(light3);
+
 			const player = new THREE.Mesh(geometry, new THREE.MeshLambertMaterial({color:0xff0000}))
 			scene.add(player)
 
@@ -177,7 +179,7 @@ scopectx.stroke();
             ctx.fillRect((ui.width/2)-2.5,ui.height/2-2.5,5,5)
             ctx.strokeRect((ui.width/2)-2.5,ui.height/2-2.5,5,5)
             ctx.font = '25px Arial'
-            var txt = `Hits: ${hits}\nMisses: ${misses}\n\nMove: WASD\nShoot: LClick\nScope: RClick`;
+            var txt = `Sensitivity: ${sens}\nHits: ${hits}\nMisses: ${misses}\n\nMove: WASD\nShoot: LClick\nScope: RClick`;
             var x = 10;
             var y = 75;
             var lineheight = 25;
@@ -188,20 +190,13 @@ scopectx.stroke();
 				
 			}
 			animate();
-
 			window.onkeydown = function(e){
 				keys[e.key] = true
 				if(e.key == '=' || e.key == '+'){
-					size += 0.125
-					if(size > 2){
-						size = 2
-					}
+					sens -= 10;
 				}
 				if(e.key == '-'){
-					size -= 0.125
-					if(size < 0.125){
-						size = 0.125
-					}
+					sens += 10;
 				}
 			}
 			window.onkeyup = function(e){
@@ -213,7 +208,7 @@ scopectx.stroke();
 			document.onmousedown = function(e) {
 				if (e.button === 0) { // Left click
 					document.body.requestPointerLock();
-					// Experimental recoil
+					// shitty faux recoil
 					let gun = document.getElementById('gun');
 					gun.style.scale = '1.57';
 					gun.style.transform = "rotate(3deg)";
@@ -245,19 +240,21 @@ scopectx.stroke();
 					}
 				} else if (e.button === 2) { // Right click
 					scope.classList.remove('hidden');
+					gun.classList.add('hidden');
 				}
 			};
 			
 			document.onmouseup = function(e) {
 				if (e.button === 2) { // Right click release
 					scope.classList.add('hidden');
+					gun.classList.remove('hidden')
 				}
 			};
 			
 			
 			document.onmousemove = function(e){
-				//camera.rotation.x -= e.movementY / 200
-				camera.rotation.y -= e.movementX / 250
+				//camera.rotation.x -= e.movementY / sens
+				camera.rotation.y -= e.movementX / sens
 			}
             			//random movement
 function setRandomCubePos() {
@@ -286,8 +283,8 @@ THREE.PointerLockControls = function ( camera, domElement ) {
 	this.maxPolarAngle = Math.PI; // radians
 
 	//
-	// internals
-	//
+	// internals aka complicated shit i pasted and dont understand but it works
+	// DONT TOUCH OR EVERYTHING WILL BREAK AAAAAAAA
 
 	var scope = this;
 
@@ -295,7 +292,7 @@ THREE.PointerLockControls = function ( camera, domElement ) {
 	var lockEvent = { type: 'lock' };
 	var unlockEvent = { type: 'unlock' };
 
-	var euler = new THREE.Euler( 0, 0, 0, 'YXZ' );
+	var euler = new THREE.Euler( 0, 0, 0, 'YXZ' ); //aint no way this is pronounced oiler
 
 	var PI_2 = Math.PI / 2;
 
@@ -424,4 +421,3 @@ THREE.PointerLockControls = function ( camera, domElement ) {
 
 THREE.PointerLockControls.prototype = Object.create( THREE.EventDispatcher.prototype );
 THREE.PointerLockControls.prototype.constructor = THREE.PointerLockControls;
-
