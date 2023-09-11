@@ -9,7 +9,7 @@
     "killfeed": [],
     "players": [
         {
-            "name": "max",
+            "name": "max S",
             "status": "alive",
             "class": "N/A",
             "respawntimer": "N/A",
@@ -40,6 +40,16 @@
         },
         {
             "name": "elene",
+            "status": "alive",
+            "class": "N/A",
+            "respawntimer": "N/A",
+            "team": "N/A",
+            "points": "0",
+            "lastactivity": "N/A"
+
+        },
+        {
+            "name": "max D",
             "status": "alive",
             "class": "N/A",
             "respawntimer": "N/A",
