@@ -1,71 +1,41 @@
 {
-    "game": true,
-    "gamemode": "Teams",
+    "game": false,
+    "gamemode": "Oxfords",
     "mod": "Graeme",
-    "zombie": "lucas",
+    "zombie": "",
     "zombierevealed": true,
     "leader": "max",
     "leaderrevealed": true,
-    "killfeed": ["lucas-max", "jade-william", "ash-spencer", "max-jade", "bob-joe", "tom-jerry", "coyote-roadrunner", "your-mom", "deez-nuts"],
+    "killfeed": [],
     "players": [
         {
             "name": "max",
             "status": "alive",
-            "class": "example_class",
-            "respawntimer": [],
-            "team": "team1",
-            "points": "69420",
-            "lastactivity": "5/1"
+            "class": "N/A",
+            "respawntimer": "N/A",
+            "team": "N/A",
+            "points": "0",
+            "lastactivity": "N/A"
 
         },
         {
-            "name": "example_player_2",
-            "status": "dead",
-            "class": "example_class_2",
-            "respawntimer": ["2"],
-            "team": "team2",
-            "points": "42069",
-            "lastactivity": "5/1"
-
-        },
-        {
-            "name": "example_player_3",
+            "name": "joe",
             "status": "alive",
-            "class": "example_class_3",
-            "respawntimer": [],
-            "team": "team1",
-            "points": "42069",
-            "lastactivity": "5/1"
+            "class": "N/A",
+            "respawntimer": "N/A",
+            "team": "N/A",
+            "points": "0",
+            "lastactivity": "N/A"
 
         },
         {
-            "name": "example_player_4",
+            "name": "rohan",
             "status": "alive",
-            "class": "example_class_4",
-            "respawntimer": [],
-            "team": "team2",
-            "points": "42069",
-            "lastactivity": "5/1"
-
-        },
-        {
-            "name": "example_player_5",
-            "status": "alive",
-            "class": "example_class_5",
-            "respawntimer": [],
-            "team": "team1",
-            "points": "42069",
-            "lastactivity": "5/1"
-
-        },
-        {
-            "name": "example_player_6",
-            "status": "alive",
-            "class": "example_class_6",
-            "respawntimer": [],
-            "team": "team2",
-            "points": "42069",
-            "lastactivity": "5/1"
+            "class": "N/A",
+            "respawntimer": "N/A",
+            "team": "N/A",
+            "points": "0",
+            "lastactivity": "N/A"
 
         }
 
