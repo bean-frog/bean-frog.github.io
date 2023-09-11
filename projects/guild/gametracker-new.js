@@ -27,7 +27,7 @@ function toTitleCase(str) { //title case function (for data formatting on displa
 
 var xhr = new XMLHttpRequest();
 
-xhr.open('GET', `https://raw.githubusercontent.com/goofyahhstorageaccount/tom2-data/main/data.json?nocache=${nocache}&nocache2=${nocache2}`, true);
+xhr.open('GET', `https://raw.githubusercontent.com/bean-frog/bean-frog.github.io/main/projects/guildtest/test.json?nocache=${nocache}&nocache2=${nocache2}`, true);
 xhr.onreadystatechange = function() {
   if (xhr.readyState === 4) { //xhr ready
     if (xhr.status === 200) { //file pulled
