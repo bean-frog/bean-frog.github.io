@@ -1,6 +1,6 @@
 {
-    "game": false,
-    "gamemode": "Oxfords",
+    "game": true,
+    "gamemode": "Oxfords, not Brogues",
     "mod": "Graeme",
     "zombie": "",
     "zombierevealed": true,
