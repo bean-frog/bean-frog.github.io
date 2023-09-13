@@ -10,12 +10,12 @@
     "players": [
         {
             "name": "max S",
-            "status": "dead",
+            "status": "alive",
             "class": "N/A",
-            "respawntimer": "1 Day",
+            "respawntimer": "",
             "team": "N/A",
             "points": "0",
-            "lastactivity": "N/A"
+            "lastactivity": "11 Sep"
 
         },
         {
@@ -24,8 +24,8 @@
             "class": "N/A",
             "respawntimer": "N/A",
             "team": "N/A",
-            "points": "0",
-            "lastactivity": "N/A"
+            "points": "5",
+            "lastactivity": "11 Sep"
 
         },
         {
@@ -34,8 +34,8 @@
             "class": "N/A",
             "respawntimer": "N/A",
             "team": "N/A",
-            "points": "0",
-            "lastactivity": "N/A"
+            "points": "5",
+            "lastactivity": "11 Sep"
 
         },
         {
@@ -44,7 +44,7 @@
             "class": "N/A",
             "respawntimer": "N/A",
             "team": "N/A",
-            "points": "10",
+            "points": "15",
             "lastactivity": "12 Sep"
 
         },
@@ -54,8 +54,8 @@
             "class": "N/A",
             "respawntimer": "N/A",
             "team": "N/A",
-            "points": "0",
-            "lastactivity": "N/A"
+            "points": "5",
+            "lastactivity": "11 Sep"
 
         },
         {
@@ -64,8 +64,8 @@
             "class": "N/A",
             "respawntimer": "N/A",
             "team": "N/A",
-            "points": "0",
-            "lastactivity": "N/A"
+            "points": "5",
+            "lastactivity": "11 Sep"
 
         }
 
