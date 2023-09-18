@@ -6,16 +6,16 @@
     "zombierevealed": true,
     "leader": "max",
     "leaderrevealed": true,
-    "killfeed": ["elene-Max s", "joe-max s"],
+    "killfeed": ["elene-Max s", "joe-max s", "max s-joe"],
     "players": [
         {
             "name": "max S",
-            "status": "dead",
+            "status": "alive",
             "class": "N/A",
-            "respawntimer": "1 day",
+            "respawntimer": "",
             "team": "N/A",
-            "points": "5",
-            "lastactivity": "11 Sep"
+            "points": "30",
+            "lastactivity": "15 Sep"
 
         },
         {
@@ -24,7 +24,7 @@
             "class": "N/A",
             "respawntimer": "N/A",
             "team": "N/A",
-            "points": "25",
+            "points": "30",
             "lastactivity": "14 Sep"
 
         },
@@ -34,7 +34,7 @@
             "class": "N/A",
             "respawntimer": "N/A",
             "team": "N/A",
-            "points": "10",
+            "points": "25",
             "lastactivity": "11 Sep"
 
         },
@@ -44,7 +44,7 @@
             "class": "N/A",
             "respawntimer": "N/A",
             "team": "N/A",
-            "points": "25",
+            "points": "35",
             "lastactivity": "12 Sep"
 
         },
@@ -54,7 +54,7 @@
             "class": "N/A",
             "respawntimer": "N/A",
             "team": "N/A",
-            "points": "15",
+            "points": "25",
             "lastactivity": "11 Sep"
 
         },
@@ -64,7 +64,7 @@
             "class": "N/A",
             "respawntimer": "N/A",
             "team": "N/A",
-            "points": "50",
+            "points": "25",
             "lastactivity": "11 Sep"
 
         }
