@@ -4,23 +4,61 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <title>bean_frog shop wow so cool</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@1.13.0/dist/full.css" rel="stylesheet">
+  <link href="https://i.imgur.com/R8sxZE9.png" rel="icon">
+  <title>bean_frog shop</title>
+  <style>
+    body {font-family: sans-serif;}
+  </style>
 </head>
-<body class="bg-gray-100">
-  <header class="bg-blue-500 py-4">
-    <div class="container mx-auto flex justify-between items-center">
-      <h1 class="text-white text-xl font-semibold">bean_frog's shop of stupid stuff</h1>
-     
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8PHX1Y2CBG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-8PHX1Y2CBG');
+</script>
+<body class="bg-gray-900 text-white">
+ 
+  <div class="relative z-40">
+    <canvas class="absolute inset-0 w-full" id="c" height="200px"></canvas>
+  </div>
+ 
+<script>
+  const balls = [
+   "no way someone is actually visiting this shop",
+   "hello, weary traveller!",
+   "take this, you may need it.",
+   "dis my brother Bilo btw",
+   "welcome to The Little Shop of Uncles",
+   "Shoppy try not to have issues challenge (impossible)",
+   "idk why the Rawetrip cfg is there (buy it)",
+   "best deal on Balkan uncles this side of the Mississippi"
+ 
+  ];
+  function nineteendollafortnitecard() {
+    const randomIndex = Math.floor(Math.random() * balls.length);
+    const qotdElement = document.getElementById("qotd");
+    qotdElement.textContent = balls[randomIndex];
+  }
+  document.addEventListener("DOMContentLoaded", nineteendollafortnitecard);
+</script>
+  <header class="py-4 px-10 relative z-50">
+    <div class="container text-center">
+      <h1 class="text-3xl font-bold">bean_frog's goofy shop</h1><br>
+      <h1 class="text-l font-semibold" id="qotd"></h1>
     </div>
   </header>
-  <header class="py-4 px-10 top-0 right-0 z-50 absolute text-black">
+  <header class="py-4 px-10 top-0 right-0 z-50 absolute">
     <div class="container mx-auto">
       <a href="../index.html"class="text-xl font-semibold m-4 opacity-60 hover:opacity-100">Home</a>
       <a href="index.html"class="text-xl font-semibold m-4 opacity-60 hover:opacity-100">Shop</a>
       <a href="../blog/index.html"class="text-xl font-semibold m-4 opacity-60 hover:opacity-100">Blog</a>
     </div>
   </header>
-  <div class="container mx-auto py-10">
+  <header class="py-4 px-10 bg-gray-800 relative z-40 mt-20"></header>
+  <div class="container m-30 p-20 text-black">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="product-container">
     </div>
   </div>
@@ -28,5 +66,12 @@
 <script src="shop.js"></script>
     <script src="https://shoppy.gg/api/embed.js"></script>
 
+
+  <footer class="py-2 bg-gray-700 text-gray-400">
+    <div class="container mx-auto text-center text-sm">
+      &copy; 2023 bean_frog. All rights reserved.
+    </div>
+  </footer>
 </body>
+<script src="../animations.js"></script>
 </html>

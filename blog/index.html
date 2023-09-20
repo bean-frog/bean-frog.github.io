@@ -1,83 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/daisyui@1.13.0/dist/full.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://i.imgur.com/R8sxZE9.png" rel="icon">
+  <title>bean_frog blog</title>
   <style>
-    html {
-        scroll-behavior: smooth;
-    }
+    body {font-family: sans-serif;}
+    html {scroll-behavior: smooth;}
     .text-custom {
       color: #242526;
     }
-    .fixed-header {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      z-index: 30;
-    }
-    
-    .fixed-sidebar {
-      position: fixed;
-      top: 0;
-      right: 0;
-      width: 33.3333%;
-      max-width: none; 
-      z-index: 999;
-      padding: 100px
-    }
+   
   </style>
- <!-- <script>
-     document.addEventListener('DOMContentLoaded', function(){
-        document.getElementById('search-bar').value = "";
-     });-->
-  </script>
-  <title>bean_frog's blog full of important and relevant information that isnt just random thoughts and stuff</title>
 </head>
-
-<body class="bg-gray-100">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8PHX1Y2CBG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-8PHX1Y2CBG');
+</script>
+<body class="bg-gray-900 text-white">
  
-  <header class="bg-white py-4">
-    <div class="container mx-auto flex justify-between items-center">
-      <h1 class="text-black text-2xl font-semibold">bean_frog's blog</h1>
-     
+  <div class="relative z-40">
+    <canvas class="absolute inset-0 w-full" id="c" height="200px"></canvas>
+  </div>
+ 
+<script>
+  const balls = [
+  "why did I make this",
+  "arson=bad"
+  ];
+  function nineteendollafortnitecard() {
+    const randomIndex = Math.floor(Math.random() * balls.length);
+    const qotdElement = document.getElementById("qotd");
+    qotdElement.textContent = balls[randomIndex];
+  }
+  document.addEventListener("DOMContentLoaded", nineteendollafortnitecard);
+</script>
+  <header class="py-4 px-10 relative z-50">
+    <div class="container text-center">
+      <h1 class="text-3xl font-bold">bean_frog's blog page full of normal, relevant information</h1><br>
+      <h1 class="text-l font-semibold" id="qotd"></h1>
     </div>
   </header>
- 
-  <div class="container mx-auto py-8 flex mt-16">
-    <div class="w-2/3">
-      <main id="mainArea"class="p-4">
-        
-      </main>
-      <aside class="w-1/3 fixed-sidebar">
-        <div class="bg-white rounded-lg shadow p-4">
-            <h2 class="text-xl font-bold mb-4 text-custom">Links</h2>
-            <ul>
-                <li class="mb-2"><a href="https://github.com/bean-frog" class="text-blue-500 hover:underline text-custom">My Github Profile</a></li>
-                <li class="mb-2"><a href="../index.html" class="text-blue-500 hover:underline text-custom">Site Home</a></li>
-       
-              </ul>
-              <br><br>
-          <h2 class="text-xl font-bold mb-4 text-custom">Jump to Post</h2>
-          <!--<input class="search-container text-black rounded-lg border-full border-gray-600 border-2" type="text" id="search-bar" placeholder="Search...">-->
-            <ul id="postsList"></ul>
-          
-         
-      </div>
-      </aside>
+  <header class="py-4 px-10 top-0 right-0 z-50 absolute">
+    <div class="container mx-auto">
+      <a href="../index.html"class="text-xl font-semibold m-4 opacity-60 hover:opacity-100">Home</a>
+      <a href="index.html"class="text-xl font-semibold m-4 opacity-60 hover:opacity-100">Shop</a>
+      <a href="../blog/index.html"class="text-xl font-semibold m-4 opacity-60 hover:opacity-100">Blog</a>
     </div>
-  </div>
-  <footer class="bg-gray-200 py-4 mt-8">
-    <div class="container mx-auto text-center">
-      <p class="text-custom">&copy; 2023 bean_frog. All rights reserved.</p>
+  </header>
+  <header class="py-4 px-10 bg-gray-800 relative z-40 mt-20"></header>
+
+  <div class="container mx-auto py-8 flex mt-16 text-black">
+    <div class="w-2/3">
+        <main id="mainArea" class="p-4">
+            <!-- Main content goes here -->
+        </main>
+    </div>
+    <aside class="w-1/3 ml-20">
+        <div class="bg-gray-600 rounded-lg shadow p-4">
+            <h2 class="text-xl font-bold mb-4 text-white">Links</h2>
+            <ul>
+                <li class="mb-2"><a href="https://github.com/bean-frog" class="hover:underline text-gray-200">My Github Profile</a></li>
+                <li class="mb-2"><a href="../index.html" class="hover:underline text-gray-200">Site Home</a></li>
+            </ul>
+            <br><br>
+            <h2 class="text-xl font-bold mb-4 text-white">Jump to Post</h2>
+            <ul id="postsList" class="text-gray-200"></ul>
+        </div>
+    </aside>
+</div>
+
+  <footer class="py-2 bg-gray-700 text-gray-400">
+    <div class="container mx-auto text-center text-sm">
+      &copy; 2023 bean_frog. All rights reserved.
     </div>
   </footer>
 </body>
-
 <script src="posts.js"></script>
 <script> //scrolling thing i guess
     function scrollToElement(elementId) {
@@ -98,4 +103,5 @@
   
   
   </script>
+<script src="../animations.js"></script>
 </html>
