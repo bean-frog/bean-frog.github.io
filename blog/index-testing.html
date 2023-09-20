@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@1.13.0/dist/full.css" rel="stylesheet">
+  <link href="https://i.imgur.com/R8sxZE9.png" rel="icon">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js" integrity="sha512-LhccdVNGe2QMEfI3x4DVV3ckMRe36TfydKss6mJpdHjNFiV07dFpS2xzeZedptKZrwxfICJpez09iNioiSZ3hA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <title>bean_frog blog</title>
+  <style>
+    body {font-family: sans-serif;}
+    html {scroll-behavior: smooth;}
+    .text-custom {
+      color: #242526;
+    }
+   
+  </style>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8PHX1Y2CBG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-8PHX1Y2CBG');
+</script>
+<body class="bg-gray-900 text-white">
+ 
+  <div class="relative z-40">
+    <canvas class="absolute inset-0 w-full" id="c" height="200px"></canvas>
+  </div>
+ 
+<script>
+  const balls = [
+  "why did I make this",
+  "arson=bad"
+  ];
+  function nineteendollafortnitecard() {
+    const randomIndex = Math.floor(Math.random() * balls.length);
+    const qotdElement = document.getElementById("qotd");
+    qotdElement.textContent = balls[randomIndex];
+  }
+  document.addEventListener("DOMContentLoaded", nineteendollafortnitecard);
+</script>
+  <header class="py-4 px-10 relative z-50">
+    <div class="container text-center">
+      <h1 class="text-3xl font-bold">the roman empire</h1><br>
+      <h1 class="text-l font-semibold" id="qotd"></h1>
+    </div>
+  </header>
+  <header class="py-4 px-10 top-0 right-0 z-50 absolute">
+    <div class="container mx-auto">
+      <a href="../index.html"class="text-xl font-semibold m-4 opacity-60 hover:opacity-100">Home</a>
+      <a href="index.html"class="text-xl font-semibold m-4 opacity-60 hover:opacity-100">Shop</a>
+      <a href="../blog/index.html"class="text-xl font-semibold m-4 opacity-60 hover:opacity-100">Blog</a>
+    </div>
+  </header>
+  <header class="py-4 px-10 bg-gray-800 relative z-40 mt-20"></header>
+
+  <div class="container mx-auto py-8 flex mt-16 text-black">
+    <div class="w-2/3">
+        <main id="mainArea" class="p-4">
+            <!-- Main content goes here -->
+        </main>
+    </div>
+    <aside class="w-1/3 ml-20">
+        <div class="bg-gray-600 rounded-lg shadow p-4">
+            <h2 class="text-xl font-bold mb-4 text-white">Links</h2>
+            <ul>
+                <li class="mb-2"><a href="https://github.com/bean-frog" class="hover:underline text-gray-200">My Github Profile</a></li>
+                <li class="mb-2"><a href="../index.html" class="hover:underline text-gray-200">Site Home</a></li>
+            </ul>
+            <br><br>
+            <h2 class="text-xl font-bold mb-4 text-white">Jump to Post</h2>
+            <ul id="postsList" class="text-gray-200"></ul>
+        </div>
+    </aside>
+</div>
+
+  <footer class="py-2 bg-gray-700 text-gray-400">
+    <div class="container mx-auto text-center text-sm">
+      &copy; 2023 bean_frog. All rights reserved.
+    </div>
+  </footer>
+</body>
+<script src="posts-testing.js"></script>
+<script> //scrolling thing i guess
+    function scrollToElement(elementId) {
+    const element = document.getElementById(elementId);
+    const offset = 120; 
+  
+    if (element) {
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+        inline: 'nearest',
+      });
+  
+      const elementTop = element.getBoundingClientRect().top;
+      window.scrollBy(0, elementTop - offset);
+    }
+  }
+  
+  
+  </script>
+<script src="../animations.js"></script>
+</html>
