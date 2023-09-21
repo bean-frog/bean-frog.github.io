@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="unreset.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js" integrity="sha512-7O5pXpc0oCRrxk8RUfDYFgn0nO1t+jLuIOQdOMRp4APB7uZ4vSjspzp5y6YDtDs4VzUSTbWzBFZ/LKJhnyFOKw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
   <link href="https://i.imgur.com/R8sxZE9.png" rel="icon">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js" integrity="sha512-LhccdVNGe2QMEfI3x4DVV3ckMRe36TfydKss6mJpdHjNFiV07dFpS2xzeZedptKZrwxfICJpez09iNioiSZ3hA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -147,8 +148,6 @@
       window.scrollBy(0, elementTop - offset);
     }
   }
-  
-
   function showdownModal(id) {
     var converter = new showdown.Converter();
     fetch(`https://raw.githubusercontent.com/bean-frog/bean-frog.github.io/main/blog/posts/${id}.md`)
@@ -193,7 +192,6 @@ shareModalContent.innerHTML = `
 <h2>Link:</h2>
 <code>${url}</code>
 `
-
   }
   </script>
 <script src="../animations.js"></script>
