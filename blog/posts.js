@@ -11,6 +11,12 @@ const postData = [
         "date":"19 Sep 2023",
         "preview":"I'm in AP CSP in my junior year of high school. My actual skill level is somewhat larger, so I often find myself finishing quickly. This is where the tryharding begins."
     },
+    {
+      "id":"3",
+      "title":"Project Overview: Beansuite",
+      "date":"21 Sep 2023",
+      "preview":"Somewhat recently, I published a repository called beansuite. This is a custom piece of software that mimics Google Drive and Docs. Here's an overview and explanation of the project."
+  }
   
     ]
     
