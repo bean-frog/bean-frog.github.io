@@ -16,7 +16,7 @@ const postData = [
     
     postData.forEach((post) => {
         const postTemplate = `
-          <article id="${post.id}" class="searchable bg-gray-600 rounded-lg shadow p-4 mb-8">
+          <article id="${post.id}" class="searchable bg-gray-800 rounded-lg shadow p-4 mb-8">
             <span><div class="badge badge-outline text-white"><span class="text-white">${post.date}</span></div></span>
             <h2 class="title text-2xl font-bold mb-4 text-white">${post.title}</h2>
             <p class="text-gray-200">${post.preview} <br> .... </p>

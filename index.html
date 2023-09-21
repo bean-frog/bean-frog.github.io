@@ -6,6 +6,7 @@
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/daisyui@1.13.0/dist/full.css" rel="stylesheet">
   <link href="https://i.imgur.com/R8sxZE9.png" rel="icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>bean_frog</title>
   <style>
     body {font-family: sans-serif;}
@@ -29,7 +30,6 @@
   const balls = [
     "I do things, just not very well",
     "mid developer lol",
-    "React sucks (cry about it)",
     "Tailwind enjoyer",
     "404: brain not found",
     "do it for ken",
@@ -76,6 +76,56 @@
       <a href="blog/index.html"class="text-xl font-semibold m-4 opacity-60 hover:opacity-100">Blog</a>
     </div>
   </header>
+  <header id="aboutme" class="py-4 px-10 bg-gray-800 relative z-40 mt-20">
+    <div class="container mx-auto">
+      <h1 class="text-2xl font-bold">About Me</h1>
+    </div>
+  </header>
+  <main class="container mx-auto py-12 z-50">
+    <div class="px-10 grid gap-11 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+      <div class="bg-gray-800 rounded-lg shadow-lg p-6 flex flex-col items-center h-auto">
+        <h2 class="text-xl font-bold mb-4">Bio</h2>
+        <p>Hey there! I'm bean_frog, and I'm a Junior in high school. I've been into coding since 6th grade, when I was first introduced to HTML in my school's computer lab. Since then, I've been expanding my knowledge daily. Outside of VSCodium, I love to hang out with my 2 golden retrievers and my amazing friends. (shoutout to the homie m-nasty)</p>
+    </div>
+      <div class="bg-gray-800 rounded-lg shadow-lg p-6 flex flex-col items-center h-auto">
+        <h2 class="text-xl font-bold mb-4">Setup (for people who care)</h2>
+        <div class="flex flex-wrap justify-between">
+            <div class="w-1/2">
+                <p class="text-l font-bold mb-2">Coding/Work Machine</p>
+                <p><span class="font-semibold">Hardware</span>: Lenovo 14W</p>
+                <p><span class="font-semibold">OS</span>: Linux Mint w/XFCE</p>
+                <p><span class="font-semibold">Specs</span>: potato lol</p>
+                <p><span class="font-semibold">Editor</span>: VSCodium</p>
+            </div>
+            <div class="w-1/2">
+                <p class="text-l font-bold mb-2">Personal Machine</p>
+                <p><span class="font-semibold">Hardware</span>: Razer Blade 15</p>
+                <p><span class="font-semibold">OS</span>: Windows 10</p>
+                <p><span class="font-semibold">Specs</span>: Intel i7 | RTX 3060 | 16gb DDR4 | 2TB NVME</p>
+            </div>
+        </div>
+    </div>
+    <div class="bg-gray-800 rounded-lg shadow-lg p-6 flex flex-col items-center h-auto">
+      <h2 class="text-xl font-bold mb-4">Stack Preferences</h2>
+      <img src="https://skillicons.dev/icons?i=javascript,html,tailwind,nodejs,express" class="mr-2">
+  </div>
+  <div class="bg-gray-800 rounded-lg shadow-lg p-6 flex flex-col items-center h-auto">
+    <h2 class="text-xl font-bold mb-4">Contact</h2>
+    <div class="flex flex-row">
+      <a target="_blank" class="m-2" href="https://github.com/bean-frog"><i class="fab fa-github text-5xl"></i></a>
+    <a target="_blank" class="m-2" href="https://bsky.app/profile/beanfrog.bsky.social"><i class="fa-solid fa-cloud text-5xl"></i></a>
+    <a target="_blank" class="m-2" href="mailto:beanfrog@sug.ma"><i class="fa-solid fa-envelope text-5xl"></i></a>
+    <a target="_blank" class="m-2" href="https://instagram.com/beanfrog_"><i class="fab fa-instagram text-5xl"></i></a>
+
+
+    </div>
+    </div>
+  
+    
+      
+     
+    </div>
+</main>
   <header id="skills" class="py-4 px-10 bg-gray-800 relative z-40 mt-20">
     <div class="container mx-auto">
       <h1 class="text-2xl font-bold">Skills</h1>
@@ -105,6 +155,10 @@
             <img src="https://skillicons.dev/icons?i=arduino" class="mr-4">
             <h2 class="text-xl font-bold">C++ (Arduino)</h2>
           </div>
+          <div class="bg-gray-800 rounded-lg shadow-lg p-6 flex items-center h-20">
+            <img src="https://skillicons.dev/icons?i=tailwind" class="mr-4">
+            <h2 class="text-xl font-bold">Tailwind</h2>
+          </div>
         </div>
         <header class="py-4 px-10">
             <div class="container mx-auto">
@@ -114,11 +168,7 @@
           <div class="px-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             <div class="bg-gray-800 rounded-lg shadow-lg p-6 flex items-center h-20">
               <img src="https://skillicons.dev/icons?i=electron" class="mr-4">
-              <h2 class="text-xl font-bold">ElectronJS</h2>
-            </div>
-            <div class="bg-gray-800 rounded-lg shadow-lg p-6 flex items-center h-20">
-              <img src="https://skillicons.dev/icons?i=tailwind" class="mr-4">
-              <h2 class="text-xl font-bold">Tailwind</h2>
+              <h2 class="text-xl font-bold">Electron</h2>
             </div>
             <div class="bg-gray-800 rounded-lg shadow-lg p-6 flex items-center h-20">
                 <img src="https://skillicons.dev/icons?i=nodejs" class="mr-4">
@@ -126,11 +176,11 @@
               </div>
               <div class="bg-gray-800 rounded-lg shadow-lg p-6 flex items-center h-20">
                 <img src="https://skillicons.dev/icons?i=express" class="mr-4">
-                <h2 class="text-xl font-bold">Express</h2>
+                <h2 class="text-xl font-bold">ExpressJS</h2>
               </div>
               <div class="bg-gray-800 rounded-lg shadow-lg p-6 flex items-center h-20">
                 <img src="https://skillicons.dev/icons?i=jquery" class="mr-4">
-                <h2 class="text-xl font-bold">jQuery</h2>
+                <h2 class="text-xl font-bold">jQuery/jQueryUI</h2>
               </div>
             </div>
             <header class="py-4 px-10">
