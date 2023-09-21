@@ -39,22 +39,3 @@ const postData = [
         document.getElementById("mainArea").insertAdjacentHTML('afterbegin', postTemplate);
         document.getElementById("postsList").insertAdjacentHTML('afterbegin', postListTemplate);
        });
-function showdownModal(id) {
-    var converter = new showdown.Converter();
-    fetch(`https://raw.githubusercontent.com/bean-frog/bean-frog.github.io/main/blog/posts/${id}.md`)
-  .then(response => {
-    if (!response.ok) {
-      throw new Error(`Network response was not ok: ${response.status}`);
-    }
-    return response.text();
-  })
-  .then(md => {
-    var html = converter.makeHtml(md);
-    let modalSelector = document.getElementById('modalContent');
-    postModal.showModal();
-    modalSelector.innerHTML = html;
-  })
-  .catch(error => {
-    console.error(`Error fetching file: ${error.message}`);
-  });
-}

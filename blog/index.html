@@ -133,6 +133,43 @@
     }
   }
   
+
+  function showdownModal(id) {
+    var converter = new showdown.Converter();
+    fetch(`https://raw.githubusercontent.com/bean-frog/bean-frog.github.io/main/blog/posts/${id}.md`)
+  .then(response => {
+    if (!response.ok) {
+      throw new Error(`Network response was not ok: ${response.status}`);
+    }
+    return response.text();
+  })
+  .then(md => {
+    var html = converter.makeHtml(md);
+    let modalSelector = document.getElementById('modalContent');
+    postModal.showModal();
+    modalSelector.innerHTML = html;
+  })
+  .catch(error => {
+    console.error(`Error fetching file: ${error.message}`);
+  });
+}
+function goToPost(id) {
+  scrollToElement(id);
+  setTimeout(showdownModal(id), 200);
+};
+
+document.addEventListener('DOMContentLoaded', checkParams())
+
+function checkParams() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const loadParam = urlParams.get('articleId');
+  if (loadParam) {
+    goToPost(loadParam);
+  } else {
+    return;
+  }
+  
+}
   
   </script>
 <script src="../animations.js"></script>
