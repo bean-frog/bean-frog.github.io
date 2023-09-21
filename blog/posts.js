@@ -23,7 +23,8 @@ const postData = [
     postData.forEach((post) => {
         const postTemplate = `
           <article id="${post.id}" class="searchable bg-gray-800 rounded-lg shadow p-4 mb-8">
-            <span><div class="badge badge-outline text-white"><span class="text-white">${post.date}</span></div></span>
+            <span class="text-white"><div class="badge badge-outline text-white mb-2">${post.date}</div></span>
+            <span class="text-white"><button onclick="copyShareLink(${post.id})" class="btn btn-ghost btn-small text-white mb-2">Share</button></span>
             <h2 class="title text-2xl font-bold mb-4 text-white">${post.title}</h2>
             <p class="text-gray-200">${post.preview} <br> .... </p>
             <button onclick="showdownModal(${post.id})"class="btn btn-ghost"><span class="text-gray-200">Read More &rarr;</span></button>

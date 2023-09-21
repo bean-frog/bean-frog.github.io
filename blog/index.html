@@ -6,12 +6,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/daisyui/3.7.6/full.css" integrity="sha512-byfHFtQdLqlUXbibTadpLv0mUNmOcPySWn8ZDPFYcBWs7+FQ04fcDx20aZ1c8m4Dg+iMgrUGz1Hxubk7eKR8QA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="unreset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
   <link href="https://i.imgur.com/R8sxZE9.png" rel="icon">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js" integrity="sha512-LhccdVNGe2QMEfI3x4DVV3ckMRe36TfydKss6mJpdHjNFiV07dFpS2xzeZedptKZrwxfICJpez09iNioiSZ3hA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <title>bean_frog blog</title>
   <style>
-    body {font-family: sans-serif;}
-    html {scroll-behavior: smooth;}
+    body {font-family: 'Oxygen';}
+    html {
+    scroll-behavior: smooth;
+    }
     .text-custom {
       color: #242526;
     }
@@ -83,9 +88,19 @@
       <form method="dialog" class="relative float-right">
         <button class="btn">Close</button>
       </form>
-      <div class="unreset" id="modalContent"></div>
+      <div class="unreset no-tw" id="modalContent" style="font-family: 'Oxygen'"></div>
       <div class="modal-action">
-        
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="shareModal" class="modal">
+    <div class="modal-box" style="max-width:unset; width:fit-content"> 
+      <form method="dialog" class="relative float-right">
+        <button class="btn">Close</button>
+      </form>
+      <div class="unreset no-tw"  id="shareModalContent"style="max-width:unset; width:fit-content" class="m-4"></div>
+      <div class="modal-action">
       </div>
     </div>
   </dialog>
@@ -170,7 +185,16 @@ function checkParams() {
   }
   
 }
-  
+function copyShareLink(id) {
+var url = `https:bean-frog.github.io/blog/index.html?articleId=${id}`;
+shareModal.showModal();
+let shareModalContent = document.getElementById('shareModalContent');
+shareModalContent.innerHTML = `
+<h2>Link:</h2>
+<code>${url}</code>
+`
+
+  }
   </script>
 <script src="../animations.js"></script>
 </html>
