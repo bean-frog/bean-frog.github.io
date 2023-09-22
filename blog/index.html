@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/daisyui/3.7.6/full.css" integrity="sha512-byfHFtQdLqlUXbibTadpLv0mUNmOcPySWn8ZDPFYcBWs7+FQ04fcDx20aZ1c8m4Dg+iMgrUGz1Hxubk7eKR8QA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="unreset.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -85,20 +85,20 @@
   <header class="py-4 px-10 bg-gray-800 relative z-40 mt-20"></header>
 
   <dialog id="postModal" class="modal">
-    <div class="modal-box" style="max-width:unset"> 
+    <div class="modal-box bg-gray-700" style="max-width:unset"> 
       <form method="dialog" class="relative float-right">
-        <button class="btn">Close</button>
+        <button class="btn btn-ghost">Close</button>
       </form>
-      <div class="unreset no-tw" id="modalContent" style="font-family: 'Oxygen'"></div>
+      <div class="unreset no-tw bg-gray-700"id="modalContent" style="font-family: 'Oxygen'"></div>
       <div class="modal-action">
       </div>
     </div>
   </dialog>
 
   <dialog id="shareModal" class="modal">
-    <div class="modal-box" style="max-width:unset; width:fit-content"> 
+    <div class="modal-box bg-gray-700" style="max-width:unset; width:fit-content"> 
       <form method="dialog" class="relative float-right">
-        <button class="btn">Close</button>
+        <button class="btn btn-ghost">Close</button>
       </form>
       <div class="unreset no-tw"  id="shareModalContent"style="max-width:unset; width:fit-content" class="m-4"></div>
       <div class="modal-action">
