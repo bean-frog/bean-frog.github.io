@@ -6,7 +6,7 @@ var cxt = c.getContext("2d");
 c.width = window.innerWidth;
 
 
-var chars = "ツぅぁづぬあブヷスろむ";
+var chars = "<>*#$!^&ツぅぁづぬあブヷスろむ";
 chars = chars.split("");
 
 var font_size =10;
@@ -24,8 +24,6 @@ function draw(){
   
   cxt.fillStyle = "#0ea5e9";
   cxt.font = font_size+'px arial';
-  
-  
   for(var i=0;i<drops.length;i++){
     var text = chars[Math.floor(Math.random()*chars.length)];
     cxt.fillText(text,i*font_size,drops[i]*font_size);
