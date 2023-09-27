@@ -34,6 +34,12 @@ function draw(){
     //increment y coordinate
     drops[i]++;
 }
-
 }
 setInterval(draw,50);
+ligmajs.secretPassage('thatone', 'password123', `
+<div class='h-fit w-fit p-6 bg-gray-800 border-full border-2 border-gray-300'>
+<h1 class="text-2xl font-bold">hi lol</h1>
+<h1 class="text-xl">you found the secret thing idk heres a medal 🥇</h1>
+</div>
+
+`)
