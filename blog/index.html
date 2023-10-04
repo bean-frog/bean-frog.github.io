@@ -189,9 +189,25 @@ var url = `https:bean-frog.github.io/blog/index.html?articleId=${id}`;
 shareModal.showModal();
 let shareModalContent = document.getElementById('shareModalContent');
 shareModalContent.innerHTML = `
-<h2>Link:</h2>
-<code>${url}</code>
+<h2>Link: (click to copy)</h2>
+<code id="linkArea">${url}</code>
+<div id="badge"></div>
 `
+document.getElementById('linkArea').addEventListener('click', function() {
+  if (navigator.clipboard) {
+  let badge = document.getElementById('badge');
+  navigator.clipboard.writeText(url)
+  .then(() => {
+    badge.classList.add('badge', 'badge-success');
+    badge.textContent = 'Success!';
+  })
+  .catch(err => {
+    badge.classList.add('badge', 'badge-success')
+    badge.textContent = 'Something went wrong';
+  });
+}
+})
+
   }
   </script>
 <script src="../animations.js"></script>
