@@ -90,7 +90,37 @@ secretPassage: function(id, password, content) {
      }
    }
  });
-}
+},
+dancingBanana: function(action, amount) {
+  if (action == "create") {
+    for (i = 0; i < amount; i++) {
+      const template = `
+      <img 
+      src="https://media.tenor.com/YhKAJhNKFeoAAAAM/dance-dancing.gif"
+      class="ligmabanana"
+      style="
+      position: absolute;
+      top: ${Math.floor(Math.random() * 101)}vh;
+      right: ${Math.floor(Math.random() * 101)}vw;
+      "
+      >
+      </img>
+      `
+      document.body.insertAdjacentHTML('afterbegin', template)
+    }
+  } else if (action == "destroy") {
+    const bananas = document.querySelectorAll('.ligmabanana');
+    if (bananas) {
+      bananas.forEach(e => e.parentNode.removeChild(e));
+      console.log('ligmajs dancingBanana (destroy): removed bananas!')
+    } else {
+      console.log('ligmajs dancingBanana (destroy): no bananas found!')
+    }
+  } else {
+    console.error('ligmajs error in module "dancingBanana". invalid action arg provided: ' + action)
+  }
+
+} 
 
 
 };
