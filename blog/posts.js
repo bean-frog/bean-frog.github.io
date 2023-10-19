@@ -16,7 +16,13 @@ const postData = [
       "title":"Project Overview: Beansuite",
       "date":"21 Sep 2023",
       "preview":"Somewhat recently, I published a repository called beansuite. This is a custom piece of software that mimics Google Drive and Docs. Here's an overview and explanation of the project."
-  }
+  },
+  {
+    "id":"4",
+    "title":"Tuneguessr Guide",
+    "date":"19 Oct 2023",
+    "preview": "Welcome, weary traveler! This guide covers the basics of my game, Tuneguessr. "
+}
   
     ]
     
