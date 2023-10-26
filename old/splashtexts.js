@@ -10,7 +10,7 @@ const balls = [
     "My dog has 1 braincell (that's still more than me)",
     "I purchase uncles in bulk",
     "kys (keep yourself safe)",
-    "W gyatt kai cenat twitch stream rizz?!!?!?",
+    "W gyatt kai cenat twitch stream rizz? Only in ohio skibidi toilet w gyatt baby gronk???!!?!?",
     "You just lost the game!",
     "Man who made it must have been a CHAMP",
     "A Who? A What? A LERODGE!",
@@ -26,9 +26,7 @@ const balls = [
     "*aggressive vine boom*",
     "one must imagine bean_frog happy",
     "luh calm fit nun too extravagant nun too rambunctious",
-    "DIS MY BROTHER BILO BTW",
-    "dems real apples",
-    "bro thinks his website is minecraft NAHHHHH"
+    "DIS MY BROTHER BILO BTW"
     
  
   ];
