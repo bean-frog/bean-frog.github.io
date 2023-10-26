@@ -22,13 +22,7 @@
     }
 </style>
 <body>
- 
-    <header class="h-screen bg-gray-900 flex flex-col justify-center items-center relative">
-        <canvas id="c" class="absolute inset-0 z-40"></canvas>
-        <h1 class="text-5xl text-white font-bold z-40">beanfrog.xyz</h1>
-        <h1 class="text-xl text-yellow-300 font-bold z-40 animate-pulse transform -rotate-12 translate-x-24 -translate-y-1"><span id="splashtext"></span></h1>
-    </header>
-    <script src="splashtexts.js"></script>
+  <script src="splashtexts.js"></script>
     <script>
       function nineteendollafortnitecard() {
         const randomIndex = Math.floor(Math.random() * balls.length);
@@ -37,6 +31,13 @@
       }
       document.addEventListener("DOMContentLoaded", nineteendollafortnitecard);
     </script>
+    <header class="h-screen bg-gray-900 flex flex-col justify-center items-center z-30">
+        <canvas id="c" class="absolute inset-0"></canvas>
+        <h1 class="text-5xl text-white font-bold z-40 ">beanfrog.xyz</h1>
+        <h1 class="text-xl text-yellow-300 font-bold z-40 animate-pulse transform -rotate-12 translate-x-24 -translate-y-1"><span id="splashtext"></span></h1>
+    </header>
+    
+    <div style="z-index: 999">
     <section class="bg-gray-300 p-8">
         <h2 class="text-3xl font-bold text-gray-900">About Me</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
@@ -50,9 +51,9 @@
                 <a class="underline text-blue-700 hover:text-blue-500" href="#projects">Cool stuff I made</a>
                <a class="underline text-blue-700 hover:text-blue-500" href="blog/">Blog</a>
                <a target="_blank" id="randomproject" class="underline text-blue-700 hover:text-blue-500">Random Project</a>
+               <a href="games"target="_blank" class="underline text-blue-700 hover:text-blue-500">Games</a>
                </div>
                <script>
-                function luhcalmfitt() {
                   const projects = [
                     "tuneguessr",
                     "projects/beansuite",
@@ -62,13 +63,13 @@
                     "projects/clock-app",
                     "experimental/killalonzo"
                 ];
-                const randomIndex = Math.floor(Math.random() * projects.length);
-                const projectElement = document.getElementById('randomproject');
-                projectElement.setAttribute('href', projects[randomIndex])
-                }
-                document.addEventListener("DOMContentLoaded", luhcalmfitt);
-
-               </script>
+        function luhcalmfit() {
+            var randomIndex = Math.floor(Math.random() * projects.length);
+            var randomURL = projects[randomIndex];
+            window.open(randomURL, '_blank');
+        }
+        document.getElementById('randomproject').addEventListener('click', luhcalmfit);
+    </script>
 
             </div>
             <div class="p-4 border border-gray-300 rounded-lg shadow-md">
