@@ -23,9 +23,11 @@ function draw(){
   cxt.fillStyle="rgba(0,0,0,0.05)";
   cxt.fillRect(0,0,c.width,c.height);
   const colors = [
-    "#0ea5e9",
-    "#0ea5e9",
-    "#ffffff"
+    "#444eff",
+    "#4c67ff",
+    "#5e91ff",
+    "#6db8ff",
+    "#7cdeff"
   ]
   let random = Math.floor(Math.random() * colors.length)
 
