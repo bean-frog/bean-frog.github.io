@@ -22,8 +22,14 @@ for(var x=0;x<columns;x++){
 function draw(){
   cxt.fillStyle="rgba(0,0,0,0.05)";
   cxt.fillRect(0,0,c.width,c.height);
-  
-  cxt.fillStyle = "#0ea5e9";
+  const colors = [
+    "#0ea5e9",
+    "#0ea5e9",
+    "#ffffff"
+  ]
+  let random = Math.floor(Math.random() * colors.length)
+
+  cxt.fillStyle = colors[random];
   cxt.font = font_size+'px arial';
   for(var i=0;i<drops.length;i++){
     var text = chars[Math.floor(Math.random()*chars.length)];

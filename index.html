@@ -20,6 +20,22 @@
         overflow-x:hidden;
         scroll-behavior: smooth;
     }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content {
+    position: relative;
+    z-index: 1;
+    padding-top: 100vh;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 </style>
 <body>
   <script src="splashtexts.js"></script>
@@ -35,9 +51,12 @@
         <canvas id="c" class="absolute inset-0"></canvas>
         <h1 class="text-5xl text-white font-bold z-40 ">beanfrog.xyz</h1>
         <h1 class="text-xl text-yellow-300 font-bold z-40 animate-pulse transform -rotate-12 translate-x-24 -translate-y-1"><span id="splashtext"></span></h1>
-    </header>
+        <svg class="absolute bottom-2 animate-bounce z-40 w-6 h-6 text-white" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24" stroke="currentColor">
+          <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+        </svg>
+      </header>
     
-    <div style="z-index: 999">
+    <div class="content" style="z-index: 999">
     <section class="bg-gray-300 p-8">
         <h2 class="text-3xl font-bold text-gray-900">About Me</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
