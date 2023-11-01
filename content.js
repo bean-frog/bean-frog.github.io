@@ -166,6 +166,18 @@ const projects = {
         "href":"projects/pva"
     }
 }
+const funstuff = {
+    1: {
+        "title": "Curse of Ra upon you!!!!!",
+        "desc": "Generates a random set of Hieroglyphics",
+        "href": "funstuff.html?open=curseofra"
+    },
+    2: {
+        "title": "Ea-Nasir sells terrible copper :(",
+        "desc": "I am NEVER purchasing my copper from Ea-Nasir EVER AGAIN",
+        "href": "funstuff.html?open=shittycopper"
+    }
+}
 const bioTemplate = `
 <h3 class="text-xl font-bold">Bio</h3>
 <p>${panels.bio.text}</p>
@@ -278,4 +290,18 @@ for (const key in projects) {
     <p>${num.desc}</p>
     `
 pElement.appendChild(card)
+}
+//fourth section
+const fsElement = document.getElementById('funstuff-sect')
+for (const key in funstuff) {
+    const num = funstuff[key];
+    const card = document.createElement('a');
+    card.setAttribute('class', 'block p-4 border border-gray-300 rounded-lg shadow-md hover:shadow-lg transition-transform transform hover:-translate-y-1');
+    card.setAttribute('href', num.href);
+    card.setAttribute('target', "_blank");
+    card.innerHTML = `
+    <h3 class="text-lg font-bold">${num.title}</h3>
+    <p>${num.desc}</p>
+    `
+fsElement.appendChild(card)
 }
