@@ -220,7 +220,7 @@ const projectsArr = [
     "projects/ligmajs",
     "projects/beancord",
     "projects/clock-app",
-    "experimental/killalonzo"
+    "projects/widezen"
 ];
 function luhcalmfit() {
 var randomIndex = Math.floor(Math.random() * projectsArr.length);
