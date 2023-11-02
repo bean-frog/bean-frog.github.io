@@ -1,6 +1,6 @@
 /*************
  * beanfrog.xyz content.js
- * contains all main page content, which is appended into the html using template literals
+ * contains all main page content, which is appended into the html 
  * switched to this method because the html is super messy especially when styling w/ tailwind
  * (c) 2023 beanfrog all rights reserved etc etc boring nerd shit
 **************/
