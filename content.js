@@ -151,21 +151,16 @@ const projects = {
         "href":"projects/clock-app"
     },
     6: {
-        "title": "task-organizer",
-        "desc": "SImple web based task organizer. Still buggy and missing some features, will be merging with PVA soon",
-        "href":"task-organizer"
-    },
-    7: {
         "title": "W I D E S H O T",
         "desc": "what if deadshot.io could be SUPER UNPLAYABLY WIDE AND THICCCCC",
         "href":"projects/wideshot"
     },
-    8: {
-        "title": "PVA",
+    7: {
+        "title": "PVA v2",
         "desc": "Personal Verbal Abuser - a study timer that verbally abuses you :D",
-        "href":"projects/pva"
+        "href":"pva-v2"
     },
-    9: {
+    8: {
         "title": "W I D E Z E N",
         "desc":"what if cryzen.io could be SUPER UNPLAYABLY THICCC LIKE UR MOM",
         "href": "projects/widezen"
