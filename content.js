@@ -103,6 +103,10 @@ const skills = {
         1: {
             "icon": "react",
             "label": "React"
+        },
+        2: {
+            "icon": "vue",
+            "label": "Vue.js"
         }
     },
     learning: {
@@ -117,10 +121,6 @@ const skills = {
         3: {
             "icon":"docker",
             "label": "Docker"
-        },
-        4: {
-            "icon":"vue",
-            "label":"Vue"
         }
     }
 }
