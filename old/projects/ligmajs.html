@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ligma.js</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@1.13.0/dist/full.css" rel="stylesheet">  
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+ <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-solid.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-regular.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-light.css">
+      <link href="https://i.imgur.com/R8sxZE9.png" rel="icon">
+      <script src="ligma.js"></script>
+
+      <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8PHX1Y2CBG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-8PHX1Y2CBG');
+</script>
+<body>
+    <body class="bg-gray-900 text-white">
+        <header class="py-4 pl-10 bg-gray-800">
+            <div class="container mx-auto">
+              <h1 class="text-2xl font-bold">ligma.js</h1>
+            </div>
+          </header>
+          <main class="container mx-auto py-12">
+            <div class="pl-10 grid gap-6 md:grid-cols-2 lg:grid-cols-1">
+                <header>
+                    <div class="container mx-auto">
+                      <h1 class="text-2xl font-bold"><i class="fa-solid fa-link"></i> <a target="_blank" href="https://github.com/bean-frog/ligma.js" class="underline">bean-frog/ligma.js</a></h1>
+                    </div>
+                  </header>
+                  <div class="container mx-auto">
+                    <h1 class="text-xl font-semibold">possibly one of the most useless javasript libraries in existence (its still pretty cool though)</h1>
+                    <h1 class="text-xl font-semibold">Check out the source code at the link above.</h1>
+                  </div>
+            </div>
+            <h1 class="text-xl font-semibold pb-4">Test some ligmajs functions:</h1>
+
+            <div class="pl-10 grid grid-cols-3">
+                <div class="border-full border-2 border-gray-300 p-4 m-4">
+                <button class="bg-gray-600 p-2 rounded-lg border-full border-1 border-gray-300"onclick="ligmajs.scammer('google', 69, 'amazon', 'message')">ligmajs.scammer('google', 69, 'amazon', 'message')</button>
+                </div>
+                <div class="border-full border-2 border-gray-300 p-4 m-4">
+                    <textarea id="popupcontent" class="text-black w-full" placeholder="Write some HTML here for the content arg"></textarea>
+                    <button id="sp" class="bg-gray-600 p-2 rounded-lg border-full border-1 border-gray-300 mb-2">This element's id is "sp" ;)</button>
+
+    <script>
+        var popupcontent = ''; 
+        function updatePopupContent() {
+            var textarea = document.getElementById("popupcontent");
+            popupcontent = textarea.value;
+        }
+        var textarea = document.getElementById("popupcontent");
+        textarea.addEventListener("input", updatePopupContent);
+    </script>
+                <button class="bg-gray-600 p-2 rounded-lg border-full border-1 border-gray-300"onclick="ligmajs.secretPassage('sp', 'iloveligma', popupcontent)">ligmajs.secretPassage('sp', 'iloveligma', popupcontent)</button>
+                </div>
+                <div class="border-full border-2 border-gray-300 p-4 m-4">
+                    <button class="bg-gray-600 p-2 rounded-lg border-full border-1 border-gray-300"onclick="ligmajs.dancingBanana('create', 10)">ligmajs.dancingBanana('create', 10)</button>
+                    <button class="bg-gray-600 p-2 rounded-lg border-full border-1 border-gray-300"onclick="ligmajs.dancingBanana('destroy', 10)">ligmajs.dancingBanana('destroy', 10)</button>
+                    </div>
+
+                   
+            </div>
+            <div class="pl-10 grid-cols-1">
+                <div class="border-full border-2 border-gray-300 p-4 m-4">
+                    <h1 class="text-xl font-semibold pb-4">ligma.js playground:</h1>
+                    <textarea id="code-editor" class="text-black p-2 w-full" placeholder="write some ligmajs functions here to test them out"></textarea>
+<button id="run-button">Run</button>
+<div id="output"></div>
+
+<script>
+    function runCode() {
+        const code = document.getElementById('code-editor').value;
+        const previousScript = document.getElementById('dynamic-script');
+        try {
+            if (previousScript) {
+                previousScript.remove();
+            }
+            const newScript = document.createElement('script');
+            newScript.textContent = code;
+            newScript.id = 'dynamic-script'; 
+            document.body.appendChild(newScript);
+        } catch (error) {
+            alert('Error: ' + error.message)
+        }
+    }
+    document.getElementById('run-button').addEventListener('click', runCode);
+</script>
+
+                    
+                    
+                    </div>
+            </div>
+            <h1 class="text-xl font-semibold mt-6 pb-4">README.md:</h1>
+            <script src="https://gist.github.com/bean-frog/792a1aac5f557de44d1f7f250de30d37.js"></script>
+                  </main>
+          <div class="p-16 bg-gray-900"></div>
+      <footer class="py-2 bg-gray-700 text-gray-400">
+        <div class="container mx-auto text-center text-sm">
+          &copy; 2023 bean_frog. All rights reserved.
+        </div>
+      </footer>
+    </body>
+</body>
+</html>

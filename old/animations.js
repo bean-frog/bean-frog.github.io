@@ -4,6 +4,7 @@ var c = document.getElementById('c');
 var cxt = c.getContext("2d");
 
 c.width = window.innerWidth;
+c.height = window.innerHeight;
 
 
 var chars = "<>*#$!^&ツぅぁづぬあブヷスろむ";
@@ -21,8 +22,16 @@ for(var x=0;x<columns;x++){
 function draw(){
   cxt.fillStyle="rgba(0,0,0,0.05)";
   cxt.fillRect(0,0,c.width,c.height);
-  
-  cxt.fillStyle = "#0ea5e9";
+  const colors = [
+    "#444eff",
+    "#4c67ff",
+    "#5e91ff",
+    "#6db8ff",
+    "#7cdeff"
+  ]
+  let random = Math.floor(Math.random() * colors.length)
+
+  cxt.fillStyle = colors[random];
   cxt.font = font_size+'px arial';
   for(var i=0;i<drops.length;i++){
     var text = chars[Math.floor(Math.random()*chars.length)];
@@ -36,11 +45,3 @@ function draw(){
 }
 }
 setInterval(draw,50);
-ligmajs.secretPassage('thatone', 'password123', `
-<div class='h-fit w-fit p-6 bg-gray-800 border-full border-2 border-gray-300'>
-<h1 class="text-2xl font-bold">hi lol</h1>
-<h1 class="text-xl">you found the secret thing idk heres a medal 🥇</h1>
-<h1 class="text-xl">this is a test of the 'secretPassage()' function in my javascript library, ligma.js. check it out in the projects section below</h1>
-</div>
-
-`)
