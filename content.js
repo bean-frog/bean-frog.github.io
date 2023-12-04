@@ -197,3 +197,12 @@ for (const key in skills.learning) {
     skillsLearning.appendChild(card);
 }
 document.getElementById('bio').innerHTML = panels.bio.text;
+const conElement = document.getElementById('contact');
+for (const key in panels.contact) {
+    const link = panels.contact[key];
+       const anchor = document.createElement('a');
+    anchor.setAttribute('class', 'm-2');
+    anchor.setAttribute('href', link.href);
+    anchor.innerHTML = `<i class="${link.icon} text-xl"></i>`;
+    conElement.appendChild(anchor);
+}

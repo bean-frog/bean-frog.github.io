@@ -1890,6 +1890,14 @@ html {
   padding: 2rem;
 }
 
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1912,6 +1920,11 @@ html {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-bold {
