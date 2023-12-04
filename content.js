@@ -182,9 +182,9 @@ const skillsLearning = document.getElementById('skills-learning')
 for (const key in skills.high) {
     const num = skills.high[key]
     const card = document.createElement('div');
-    card.setAttribute('class', 'flex flex-row items-center p-2 m-2 rounded-md bg-emerald-500/25');
+    card.setAttribute('class', 'flex flex-row items-center p-2 m-2 rounded-md bg-emerald-500/25 border-[1px] border-full border-stone-300');
     card.innerHTML = `
-    <img src="https://skillicons.dev/icons?i=${num.icon}" class="mr-2 w-5 h-5">
+    <img src="https://skillicons.dev/icons?i=${num.icon}" class="mr-2 w-6 h-6">
     <h2 class="font-bold text-white">${num.label}</h2>
     `
     skillsHigh.appendChild(card);
@@ -192,9 +192,9 @@ for (const key in skills.high) {
 for (const key in skills.mid) {
     const num = skills.mid[key]
     const card = document.createElement('div');
-    card.setAttribute('class', 'flex flex-row items-center p-2 m-2 rounded-md bg-yellow-500/25');
+    card.setAttribute('class', 'flex flex-row items-center p-2 m-2 rounded-md bg-yellow-500/25 border-[1px] border-full border-stone-300');
     card.innerHTML = `
-    <img src="https://skillicons.dev/icons?i=${num.icon}" class="mr-2 w-5 h-5">
+    <img src="https://skillicons.dev/icons?i=${num.icon}" class="mr-2 w-6 h-6">
     <h2 class="font-bold text-white">${num.label}</h2>
     `
     skillsMid.appendChild(card);
@@ -202,9 +202,9 @@ for (const key in skills.mid) {
 for (const key in skills.low) {
     const num = skills.low[key]
     const card = document.createElement('div');
-    card.setAttribute('class', 'flex flex-row items-center p-2 m-2 rounded-md bg-orange-500/25');
+    card.setAttribute('class', 'flex flex-row items-center p-2 m-2 rounded-md bg-orange-500/25 border-[1px] border-full border-stone-300');
     card.innerHTML = `
-    <img src="https://skillicons.dev/icons?i=${num.icon}" class="mr-2 w-5 h-5">
+    <img src="https://skillicons.dev/icons?i=${num.icon}" class="mr-2 w-6 h-6">
     <h2 class="font-bold text-white">${num.label}</h2>
     `
     skillsLow.appendChild(card);
@@ -212,9 +212,9 @@ for (const key in skills.low) {
 for (const key in skills.learning) {
     const num = skills.learning[key]
     const card = document.createElement('div');
-    card.setAttribute('class', 'flex flex-row items-center p-2 m-2 rounded-md bg-red-500/25');
+    card.setAttribute('class', 'flex flex-row items-center p-2 m-2 rounded-md bg-red-500/25 border-[1px] border-full border-stone-300');
     card.innerHTML = `
-    <img src="https://skillicons.dev/icons?i=${num.icon}" class="mr-2 w-5 h-5">
+    <img src="https://skillicons.dev/icons?i=${num.icon}" class="mr-2 w-6 h-6">
     <h2 class="font-bold text-white">${num.label}</h2>
     `
     skillsLearning.appendChild(card);
@@ -248,7 +248,7 @@ for (const key in projects) {
     div.innerHTML = `
         <h1 class="text-xl font-bold">${item.title}</h1>
               <h1 class="text-md">${item.desc}</h1>
-              <a target="_blank" href="${item.href}" class="btn glass">Check it out</a>
+              <a target="_blank" href="${item.href}" class="mt-auto btn glass">Check it out</a>
     `
     projectsElement.appendChild(div)
 }
