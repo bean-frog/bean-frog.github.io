@@ -1,15 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <link rel="icon" href="./favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>beanfrog.xyz</title>
-    <script type="module" crossorigin src="./assets/index-ae8e0cb8.js"></script>
-    <link rel="stylesheet" href="./assets/index-4f95fa26.css">
-  </head>
-  <body>
-    <div id="app"></div>
-    
-  </body>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+/*I DID NOT steal this animation from Hyperplexed on Codepen. I never steal. Stealing is bad. Unless it's a css animation from Hyperplexed. Then stealing is probably fine. I didn't though...*/
+@keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+  
+  50% {
+    scale: 1 1.5;
+  }
+  
+  to {
+    rotate: 360deg;
+  }
+}
+
+#blob {
+  height: 20vmax;
+  aspect-ratio: 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  border-radius: 50%;
+  background: linear-gradient(to right, aquamarine, blue);
+  animation: rotate 25s infinite;
+  opacity: 0.8;
+}
+
+#blur {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  backdrop-filter: blur(8vmax);
+}
+</style>
+<body>
+  <script src="splashtexts.js"></script>
+  <script>
+    function nineteendollafortnitecard() {
+      const randomIndex = Math.floor(Math.random() * balls.length);
+      const qotdElement = document.getElementById("splashtext");
+      qotdElement.textContent = balls[randomIndex];
+    }
+    document.addEventListener("DOMContentLoaded", nineteendollafortnitecard);
+  </script>
+    <main class="flex justify-center items-center w-screen h-screen text-white bg-black">
+        <div id="blob"></div>
+    <div id="blur"></div>
+
+
+    <div class="fixed z-10 p-4 mx-auto max-w-6xl text-black">
+
+        <div class="grid grid-cols-3 gap-4">
+      
+          <div class="col-span-3 p-8 text-center bg-white rounded backdrop-blur-sm bg-white/20">
+            <h1 class="text-3xl font-bold">b e a n f r o g . x y z</h1>
+            <h1 id="splashtext" class="text-lg font-regular"></h1>
+          </div>
+      
+          <div class="p-4 bg-white rounded backdrop-blur-sm bg-white/20">
+            <h3 class="mb-2 font-semibold">About Me</h3>
+            <p id="bio"></p> 
+          </div>
+          <div class="col-span-2 p-4 bg-white rounded backdrop-blur-sm bg-white/20">
+            <h3 class="mb-2 font-semibold">Skills</h3>
+            <div id="skills-high" class="flex flex-wrap max-w-5xl"></div>
+            <div id="skills-mid" class="flex flex-wrap max-w-5xl"></div>
+            <div id="skills-low" class="flex flex-wrap max-w-5xl"></div>
+            <div id="skills-learning" class="flex flex-wrap max-w-5xl"></div>
+          </div>
+
+          <div class="col-span-2 p-4 bg-white rounded backdrop-blur-sm bg-white/20">
+            <h3 class="mb-2 font-semibold">Tech</h3>
+<div class="flex flex-row flex-wrap">
+            <div class="flex flex-col justify-center p-2 m-2 rounded-md bg-white/[0.21]">
+                <h1 class="text-xl font-bold">Main PC</h1>
+                <ul>
+                  <li>Basic Windows 10 machine</li>
+                  <li>RTX 3060 | i9 10th Gen</li>
+                  <li>16GB RAM | 2TB SSD</li>
+                </ul>
+            </div>
+
+            <div class="flex flex-col justify-center p-2 m-2 rounded-md bg-white/[0.21]">
+              <h1 class="text-xl font-bold">Primary Linux Machine</h1>
+              <ul>
+                <li>CachyOS (Arch-based)</li>
+                <li>WM: XFCE | Shell: FISh</li>
+                <li>i7 9th Gen | Intel Graphics</li>
+                <li>16GB RAM | 1TB SSD</li>
+              </ul>
+          </div>
+          <div class="flex flex-col justify-center p-2 m-2 rounded-md bg-white/[0.21]">
+            <h1 class="text-xl font-bold">Secondary Linux Machine</h1>
+            <ul>
+              <li>Linux Mint</li>
+              <li>WM: XFCE | Shell: FISh</li>
+              <li>AMD A6-9220c | Radeon R5 Graphics</li>
+              <li>4GB RAM | 128GB SSD</li>
+            </ul>
+        </div>
+</div>
+          </div>
+          <div class="flex flex-col p-4 bg-white rounded backdrop-blur-sm bg-white/20">
+            <h3 class="mb-2 font-semibold">Goofball activities</h3>
+              <a class="text-black underline" href="funstuff.html?open=curseofra">Curse of Ra!</a>
+              <a class="text-black underline" href="funstuff.html?open=shittycopper">Ea-Nasir's Copper Sucks</a>
+          </div>
+
+          <div class="col-span-3 p-4 bg-white rounded backdrop-blur-sm bg-white/20">
+            <h3 class="mb-2 font-semibold">Projects</h3>
+            <p>(re)Adding Soon!</p>
+          </div>
+      
+        </div>
+      
+      </div>
+
+
+
+    </main>
+    <script src="content.js"></script>
+</body>
 </html>
