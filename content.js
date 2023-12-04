@@ -85,6 +85,10 @@ const skills = {
         2: {
             "icon": "vue",
             "label": "Vue"
+        },
+        3: {
+            "icon": "mongodb",
+            "label": "MongoDB"
         }
     },
     learning: {
