@@ -32,6 +32,20 @@ const panels = {
             "icon": "fab fa-discord text-5xl",
             "href": "https://discord.gg/PAeZHF2yjJ"
         },
+    },
+    tech: {
+        1: {
+            "title": "Main PC (dualboot)",
+            "html": `<ul><li>Windows 10</li><li>Manjaro (KDE Plasma)</li><li>RTX 3060 | i9 10th Gen</li><li>16GB RAM | 2TB SSD</li></ul>`
+        },
+        2: {
+            "title": "Linux 1",
+            "html": `<ul><li>CachyOS (Arch-based)</li><li>Desktop: XFCE | Shell: FISh</li><li>i7 9th Gen | Intel Graphics</li><li>16GB RAM | 1TB SSD</li></ul>`
+        },
+        3: {
+            "title": "Linux 2",
+            "html": `<ul><li>Linux Mint</li><li>Desktop: XFCE | Shell: FISh</li><li>AMD A6-9220c | Radeon R5 </li><li>4GB RAM | 128GB SSD</li></ul>`
+        },
     }
 }
 //skills section
@@ -142,6 +156,11 @@ const projects = {
         "title": "W I D E Z E N",
         "desc":"what if cryzen.io could be SUPER UNPLAYABLY THICCC LIKE UR MOM",
         "href": "projects/widezen"
+    },
+    9: {
+        "title": "simplesettings.js",
+        "desc": "a small javascript library that makes saving user settings in local storage easy",
+        "href": "https://github.com/bean-frog/simplesettings.js"
     }
 }
 const funstuff = {
@@ -209,4 +228,27 @@ for (const key in panels.contact) {
     anchor.setAttribute('href', link.href);
     anchor.innerHTML = `<i class="${link.icon} text-xl"></i>`;
     conElement.appendChild(anchor);
+}
+
+
+const techElement = document.getElementById('tech');
+for (const key in panels.tech) {
+    const item = panels.tech[key];
+    const div = document.createElement('div');
+    div.setAttribute('class', 'flex flex-col justify-center p-2 m-2 rounded-md bg-white/[0.21]');
+    div.innerHTML += `<h1 class="text-xl font-bold">${item.title}</h1>` + item.html;
+    techElement.appendChild(div);
+}
+
+const projectsElement = document.getElementById('projects');
+for (const key in projects) {
+    const item = projects[key];
+    const div = document.createElement('div');
+    div.setAttribute('class', 'flex flex-col justify-center p-2 m-2 rounded-md bg-white/[0.21]');
+    div.innerHTML = `
+        <h1 class="text-xl font-bold">${item.title}</h1>
+              <h1 class="text-md">${item.desc}</h1>
+              <a target="_blank" href="${item.href}" class="btn glass">Check it out</a>
+    `
+    projectsElement.appendChild(div)
 }

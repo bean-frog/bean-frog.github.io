@@ -23,7 +23,7 @@ document.getElementById('gen').addEventListener('click', function() {
         var num = Math.floor(Math.random() * chars.length);
         final += chars[num];
     }
-    document.getElementById('output').textContent = "don't care lol CURSE OF RA! " + final;
+    document.getElementById('output').textContent = "don't care lol CURSE OF RA! " + final + "🗣️🗣️🗣️🔥🔥‼️‼️‼️";
     document.getElementById('copy').removeAttribute('disabled');
 });
 document.getElementById('copy').addEventListener('click', function() {

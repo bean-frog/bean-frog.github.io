@@ -24,7 +24,7 @@
 }
 
 #blob {
-  height: 20vmax;
+  height: 23vmax;
   aspect-ratio: 1;
   position: absolute;
   left: 50%;
@@ -54,19 +54,19 @@
     }
     document.addEventListener("DOMContentLoaded", nineteendollafortnitecard);
   </script>
-    <main class="flex justify-center items-center w-screen h-screen text-white bg-black">
-        <div id="blob"></div>
+  <div class="flex fixed justify-center items-center h-screen w-screen bg-black">
+       <div id="blob"></div>
     <div id="blur"></div>
-
-
-    <div class="fixed z-10 p-4 mx-auto max-w-6xl text-black">
+  </div>
+    <main class="flex justify-center items-center w-screen h-screen text-white">
+    <div class=" z-10 p-4 mt-auto mx-auto max-w-6xl text-white">
 
         <div class="grid grid-cols-3 gap-4">
       
           <div class="col-span-3 p-8 pb-4 text-center bg-white rounded backdrop-blur-sm bg-white/20">
             <h1 class="text-3xl font-bold">b e a n f r o g . x y z</h1>
             <h1 id="splashtext" class="text-sm font-regular"></h1>
-            <div class="flex flex-row justify-center items-center pt-4 w-full text-black text-md" id="contact">
+            <div class="flex flex-row justify-center items-center pt-4 w-full text-white text-md" id="contact">
 
             </div>
           </div>
@@ -85,45 +85,23 @@
 
           <div class="col-span-2 p-4 bg-white rounded backdrop-blur-sm bg-white/20">
             <h3 class="mb-2 font-semibold">Tech</h3>
-<div class="flex flex-row flex-wrap">
-            <div class="flex flex-col justify-center p-2 m-2 rounded-md bg-white/[0.21]">
-                <h1 class="text-xl font-bold">Main PC</h1>
-                <ul>
-                  <li>Windows 10 | WSL</li>
-                  <li>RTX 3060 | i9 10th Gen</li>
-                  <li>16GB RAM | 2TB SSD</li>
-                </ul>
-            </div>
-
-            <div class="flex flex-col justify-center p-2 m-2 rounded-md bg-white/[0.21]">
-              <h1 class="text-xl font-bold">Linux 1</h1>
-              <ul>
-                <li>CachyOS (Arch-based)</li>
-                <li>Desktop: XFCE | Shell: FISh</li>
-                <li>i7 9th Gen | Intel Graphics</li>
-                <li>16GB RAM | 1TB SSD</li>
-              </ul>
-          </div>
-          <div class="flex flex-col justify-center p-2 m-2 rounded-md bg-white/[0.21]">
-            <h1 class="text-xl font-bold">Linux 2</h1>
-            <ul>
-              <li>Linux Mint</li>
-              <li>Desktop: XFCE | Shell: FISh</li>
-              <li>AMD A6-9220c | Radeon R5 </li>
-              <li>4GB RAM | 128GB SSD</li>
-            </ul>
-        </div>
+<div class="flex flex-row flex-wrap" id="tech">
+           
 </div>
           </div>
           <div class="flex flex-col p-4 bg-white rounded backdrop-blur-sm bg-white/20">
             <h3 class="mb-2 font-semibold">Goofball activities</h3>
-              <a class="text-black underline" href="funstuff.html?open=curseofra">Curse of Ra!</a>
-              <a class="text-black underline" href="funstuff.html?open=shittycopper">Ea-Nasir's Copper Sucks</a>
+              <a class="text-white underline" href="funstuff.html?open=curseofra">Curse of Ra!</a>
+              <a class="text-white underline" href="funstuff.html?open=shittycopper">Ea-Nasir's Copper Sucks</a>
           </div>
 
           <div class="col-span-3 p-4 bg-white rounded backdrop-blur-sm bg-white/20">
             <h3 class="mb-2 font-semibold">Projects</h3>
-            <p>(re)Adding Soon!</p>
+            <div id="projects" class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+
+            
+
+</div>
           </div>
       
         </div>
