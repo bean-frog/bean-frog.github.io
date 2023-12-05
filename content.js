@@ -248,7 +248,7 @@ for (const key in projects) {
     div.innerHTML = `
         <h1 class="text-xl font-bold">${item.title}</h1>
               <h1 class="text-md">${item.desc}</h1>
-              <a target="_blank" href="${item.href}" class="mt-auto btn glass">Check it out</a>
+              <a target="_blank" href="${item.href}" class="mt-auto text-black btn glass">Check it out</a>
     `
     projectsElement.appendChild(div)
 }
