@@ -117,6 +117,10 @@ const skills = {
         3: {
             "icon": "rust",
             "label": "Rust"
+        },
+        4: {
+            "icon": "ruby",
+            "label": "Ruby"
         }
     }
 }
