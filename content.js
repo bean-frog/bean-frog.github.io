@@ -171,20 +171,17 @@ const projects = {
         "href": "https://github.com/bean-frog/simplesettings.js"
     }
 }
-const funstuff = {
+const goober = {
     1: {
         "title": "Curse of Ra upon you!!!!!",
-        "desc": "Generates a random set of Hieroglyphics",
         "href": "funstuff.html?open=curseofra"
     },
     2: {
         "title": "Ea-Nasir sells terrible copper :(",
-        "desc": "I am NEVER purchasing my copper from Ea-Nasir EVER AGAIN",
         "href": "funstuff.html?open=shittycopper"
     },
     3: {
         "title": "Non-Coding stuff",
-        "desc": "small portfolio of non-code stuff I did",
         "href": "portfolio"
     }
 }
@@ -264,4 +261,14 @@ for (const key in projects) {
               <a target="_blank" href="${item.href}" class="mt-auto text-black btn glass">Check it out</a>
     `
     projectsElement.appendChild(div)
+}
+
+const goofyactivities = document.getElementById("otherstuff")
+for (const key in goober) {
+    const item = goober[key];
+    const a = document.createElement('a');
+    a.href = item.href;
+    a.innerText = item.title;
+    a.setAttribute('class', 'text-white underline');
+    goofyactivities.appendChild(a)
 }
