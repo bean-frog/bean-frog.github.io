@@ -181,6 +181,11 @@ const funstuff = {
         "title": "Ea-Nasir sells terrible copper :(",
         "desc": "I am NEVER purchasing my copper from Ea-Nasir EVER AGAIN",
         "href": "funstuff.html?open=shittycopper"
+    },
+    3: {
+        "title": "Non-Coding stuff",
+        "desc": "small portfolio of non-code stuff I did",
+        "href": "portfolio"
     }
 }
 const skillsHigh = document.getElementById('skills-high')
