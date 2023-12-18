@@ -26,7 +26,7 @@ let apsem = document.getElementById("apsem");
 for (const key in stuff.seminar) {
     const item = stuff.seminar[key];
     let template = `
-					<div class="w-fit h-fit p-2 my-2 border-full border-white border-[1px] rounded-md hover:scale-[1.01]">
+					<div class="w-fit h-fit p-2 m-2 border-full border-white border-[1px] rounded-md hover:scale-[1.01]">
       					<a href="files/${item.url}" class="w-fit h-fit">
       							<h1 class="text-lg">${item.name}</h1>
       							<h1 class="text-md">${item.topic}</h1>
