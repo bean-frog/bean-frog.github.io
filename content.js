@@ -40,7 +40,7 @@ const panels = {
         },
         2: {
             "title": "Linux 1",
-            "html": `<ul><li>CachyOS (Arch-based)</li><li>Desktop: XFCE | Shell: FISh</li><li>i7 9th Gen | Intel Graphics</li><li>16GB RAM | 1TB SSD</li></ul>`
+            "html": `<ul><li>CachyOS</li><li>Desktop: XFCE | Shell: FISh</li><li>i7 9th Gen | Intel Graphics</li><li>16GB RAM | 1TB SSD</li></ul>`
         },
         3: {
             "title": "Linux 2",
@@ -101,9 +101,9 @@ const skills = {
             "label": "Vue"
         },
         3: {
-            "icon": "mongodb",
-            "label": "MongoDB"
-        }
+         "icon": "ruby",
+            "label": "Ruby"
+        } 
     },
     learning: {
         1: {
@@ -119,8 +119,8 @@ const skills = {
             "label": "Rust"
         },
         4: {
-            "icon": "ruby",
-            "label": "Ruby"
+             "icon": "mongodb",
+            "label": "MongoDB"
         }
     }
 }
