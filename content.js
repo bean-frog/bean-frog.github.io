@@ -40,11 +40,11 @@ const panels = {
         },
         2: {
             "title": "Linux 1",
-            "html": `<ul><li>CachyOS</li><li>Desktop: XFCE | Shell: FISh</li><li>i7 9th Gen | Intel Graphics</li><li>16GB RAM | 1TB SSD</li></ul>`
+            "html": `<ul><li>CachyOS</li><li>Desktop: XFCE | Shell: FISh</li><li>WM: xwfm4</li><li>i7 9th Gen | Intel Graphics</li><li>16GB RAM | 1TB SSD</li></ul>`
         },
         3: {
             "title": "Linux 2",
-            "html": `<ul><li>Linux Mint</li><li>Desktop: XFCE | Shell: FISh</li><li>AMD A6-9220c | Radeon R5 </li><li>4GB RAM | 128GB SSD</li></ul>`
+            "html": `<ul><li>Linux Mint</li><li>Desktop: XFCE | Shell: FISh</li><li>WM: xwfm4 + Compiz</li><li>AMD A6-9220c | Radeon R5 </li><li>4GB RAM | 128GB SSD</li></ul>`
         },
     }
 }
