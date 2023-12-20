@@ -44,7 +44,7 @@ const panels = {
         },
         3: {
             "title": "Linux 2",
-            "html": `<ul><li>Linux Mint</li><li>Desktop: XFCE | Shell: FISh</li><li>WM: xwfm4 + Compiz</li><li>AMD A6-9220c | Radeon R5 </li><li>4GB RAM | 128GB SSD</li></ul>`
+            "html": `<ul><li>Linux Mint</li><li>Desktop: XFCE | Shell: FISh</li><li>WM: Compiz (X11)</li><li>AMD A6-9220c | Radeon R5 </li><li>4GB RAM | 128GB SSD</li></ul>`
         },
     }
 }
