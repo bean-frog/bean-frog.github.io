@@ -1,0 +1,59 @@
+<html>
+<head>
+	<link rel="stylesheet" href="../style.css">
+	<title>beanfrog.xyz | random copypastas idk</title>
+</head>
+
+<body>
+<style>
+/*I DID NOT steal this animation from Hyperplexed on Codepen. I never steal. Stealing is bad. Unless it's a css animation from Hyperplexed. Then stealing is probably fine. I didn't though...*/
+@keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+  
+  50% {
+    scale: 1 1.5;
+  }
+  
+  to {
+    rotate: 360deg;
+  }
+}
+
+#blob {
+  height: 23vmax;
+  aspect-ratio: 1.2;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  border-radius: 50%;
+  background: linear-gradient(to right, aquamarine, blue);
+  animation: rotate 20s infinite;
+  opacity: 0.6;
+}
+
+#blur {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  backdrop-filter: blur(100px);
+}
+</style>
+		<div class="flex fixed justify-center items-center h-screen w-screen bg-black">
+		 <div id="blob"></div>
+    <div id="blur"></div>
+	</div>
+	<main class="flex justify-center items-center w-screen h-screen text-white ">
+<div id="grid"class="z-10 grid gap-4 sm:grid-cols-1 md:grid-cols-2 w-full m-6 lg:grid-cols-4">
+
+</div>
+<script src="copy.js"></script>
+
+under construction n shi come back later
+
+</main>
+</body>
+</html>

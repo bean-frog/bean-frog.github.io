@@ -40,7 +40,7 @@ const panels = {
         },
         2: {
             "title": "Linux 1",
-            "html": `<ul><li>CachyOS</li><li>Desktop: XFCE | Shell: FISh</li><li>WM: xwfm4</li><li>i7 9th Gen | Intel Graphics</li><li>16GB RAM | 1TB SSD</li></ul>`
+            "html": `<ul><li>CachyOS</li><li>Desktop: XFCE | Shell: FISh</li><li>WM: xfwm4</li><li>i7 9th Gen | Intel Graphics</li><li>16GB RAM | 1TB SSD</li></ul>`
         },
         3: {
             "title": "Linux 2",
@@ -169,6 +169,11 @@ const projects = {
         "title": "simplesettings.js",
         "desc": "a small javascript library that makes saving user settings in local storage easy",
         "href": "https://github.com/bean-frog/simplesettings.js"
+    },
+    10: {
+        "title": "Goober FX",
+        "desc": "simple theater sound cue app that I made for a school thing using Electron.",
+        "href": "https://github.com/bean-frog/GooberFX"
     }
 }
 const goober = {
