@@ -11,14 +11,14 @@ const stuff = {
 			"topic":"Maternal mortality in African-American women in the US",
 			"desc":"A practice run of the TMP (Team Multimedia Presentation), completed Semester 1 of the 2023-24 school year.",
 			"url":"tmp-semester-1.html"
-		}/*,
+		},
 		3: {
 			"name": "S1 Mock IWA",
 			"topic":"Racial inequity in natural disaster aid in the southern US",
 			"desc":"A practice run of the IWA (Individual Written Argument), completed Semester 1 of the 2023-24 school year.",
 			"url":"iwa-semester-1.html"
 		}
-		*/
+		
 	}
 };
 
