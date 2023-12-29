@@ -150,20 +150,10 @@ const projects = {
         "desc": "Simple clock app built using Electron. Should work on all major OS/Architectures as long as they support NodeJS and Electron.",
         "href":"projects/clock-app"
     },
-    6: {
-        "title": "W I D E S H O T",
-        "desc": "what if deadshot.io could be SUPER UNPLAYABLY WIDE AND THICCCCC",
-        "href":"projects/wideshot"
-    },
     7: {
         "title": "PVA v2",
         "desc": "Personal Verbal Abuser - a study timer that verbally abuses you :D",
         "href":"pva-v2"
-    },
-    8: {
-        "title": "W I D E Z E N",
-        "desc":"what if cryzen.io could be SUPER UNPLAYABLY THICCC LIKE UR MOM",
-        "href": "projects/widezen"
     },
     9: {
         "title": "simplesettings.js",
@@ -174,6 +164,11 @@ const projects = {
         "title": "Goober FX",
         "desc": "simple theater sound cue app that I made for a school thing using Electron.",
         "href": "https://github.com/bean-frog/GooberFX"
+    },
+     11: {
+        "title": "Userscripts",
+        "desc": "My collection of userscripts that I've made.",
+        "href": "projects/userscripts.html"
     }
 }
 const goober = {
@@ -186,6 +181,14 @@ const goober = {
         "href": "funstuff.html?open=shittycopper"
     },
     3: {
+        "title": "W I D E S H O T",
+        "href": "projects/wideshot.html"
+    },
+    4: {
+        "title": "W I D E Z E N",
+        "href": "projects/widezen.html"
+    },
+    5: {
         "title": "Non-Coding stuff",
         "href": "portfolio"
     }
