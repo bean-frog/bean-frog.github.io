@@ -128,47 +128,56 @@ const projects = {
     1: {
         "title": "Tuneguessr",
         "desc": "A musical geography game similar to Geoguessr. Players are given a song and must guess which country it is from.",
-        "href":"tuneguessr"
+        "href":"tuneguessr",
+        "icons": "html,tailwind,js"
     },
     2: {
         "title": "ligma.js",
         "desc": "stupid javascript library thats mostly useless but has a couple of cool things I guess",
-        "href":"projects/ligmajs"
+        "href":"projects/ligmajs",
+        "icons": "js"
     },
     3: {
         "title": "beancord",
         "desc": "(kind of abandoned) custom discord client. Will probably return in the future.",
-        "href":"projects/beancord"
+        "href":"projects/beancord",
+        "icons": "html,js,css,electron"
     },
     4: {
         "title": "beansuite",
         "desc": "Sorry Larry and Sergei, I stole your document editor >:)",
-        "href":"projects/beansuite"
+        "href":"projects/beansuite",
+        "icons": "html,js,tailwind,nodejs,express"
     },
     5: {
         "title": "clock-app",
         "desc": "Simple clock app built using Electron. Should work on all major OS/Architectures as long as they support NodeJS and Electron.",
-        "href":"projects/clock-app"
+        "href":"projects/clock-app",
+        "icons": "html,js,tailwind,electron"
     },
     7: {
         "title": "PVA v2",
         "desc": "Personal Verbal Abuser - a study timer that verbally abuses you :D",
-        "href":"pva-v2"
+        "href":"pva-v2",
+        "icons": "html,js,tailwind"
     },
     9: {
         "title": "simplesettings.js",
         "desc": "a small javascript library that makes saving user settings in local storage easy",
-        "href": "https://github.com/bean-frog/simplesettings.js"
+        "href": "https://github.com/bean-frog/simplesettings.js",
+        "icons": "js"
     },
     10: {
         "title": "Goober FX",
         "desc": "simple theater sound cue app that I made for a school thing using Electron.",
-        "href": "https://github.com/bean-frog/GooberFX"
+        "href": "https://github.com/bean-frog/GooberFX",
+        "icons": "html,js,tailwind,electron"
     },
      11: {
         "title": "Userscripts",
         "desc": "My collection of userscripts that I've made.",
-        "href": "projects/userscripts.html"
+        "href": "projects/userscripts.html",
+        "icons": "js"
     }
 }
 const goober = {
@@ -264,7 +273,11 @@ for (const key in projects) {
     const div = document.createElement('div');
     div.setAttribute('class', 'flex flex-col justify-center p-2 m-2 rounded-md bg-white/[0.21]');
     div.innerHTML = `
+        <div class="flex flex-row items-center">
         <h1 class="text-xl font-bold">${item.title}</h1>
+    <img src="https://skillicons.dev/icons?i=${item.icons}" class="m-2 w-fit h-6">
+
+  </div>
               <h1 class="text-md">${item.desc}</h1>
               <a target="_blank" href="${item.href}" class="mt-auto text-black btn glass">Check it out</a>
     `

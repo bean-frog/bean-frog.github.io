@@ -2043,10 +2043,6 @@ html {
   grid-column: span 3 / span 3;
 }
 
-.col-span-1 {
-  grid-column: span 1 / span 1;
-}
-
 .m-2 {
   margin: 0.5rem;
 }
@@ -2172,10 +2168,6 @@ html {
 
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -2361,10 +2353,6 @@ html {
 
 .pl-3 {
   padding-left: 0.75rem;
-}
-
-.pr-1 {
-  padding-right: 0.25rem;
 }
 
 .pr-2 {
