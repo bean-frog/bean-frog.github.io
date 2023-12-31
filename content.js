@@ -135,7 +135,7 @@ const projects = {
         "title": "Stupid Trivia",
         "desc": "A trivia game where most of the answers are stupid.",
         "href":"projects/stupid-trivia",
-        "icons": "react, js, tailwind"
+        "icons": "react,js,tailwind"
     },
     3: {
         "title": "ligma.js",
