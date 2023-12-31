@@ -153,7 +153,7 @@ const projects = {
         "title": "clock-app",
         "desc": "Simple clock app built using Electron. Should work on all major OS/Architectures as long as they support NodeJS and Electron.",
         "href":"projects/clock-app",
-        "icons": "html,js,tailwind,electron"
+        "icons": "html,js,tailwind,electron,nodejs"
     },
     7: {
         "title": "PVA v2",
@@ -171,7 +171,7 @@ const projects = {
         "title": "Goober FX",
         "desc": "simple theater sound cue app that I made for a school thing using Electron.",
         "href": "https://github.com/bean-frog/GooberFX",
-        "icons": "html,js,tailwind,electron"
+        "icons": "html,js,tailwind,electron,nodejs"
     },
      11: {
         "title": "Userscripts",
