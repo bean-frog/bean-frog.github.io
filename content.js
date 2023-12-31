@@ -131,25 +131,31 @@ const projects = {
         "href":"tuneguessr",
         "icons": "html,tailwind,js"
     },
-    2: {
+     2: {
+        "title": "Stupid Trivia",
+        "desc": "A trivia game where most of the answers are stupid.",
+        "href":"projects/stupid-trivia",
+        "icons": "react, js, tailwind"
+    },
+    3: {
         "title": "ligma.js",
         "desc": "stupid javascript library thats mostly useless but has a couple of cool things I guess",
         "href":"projects/ligmajs",
         "icons": "js"
     },
-    3: {
+    4: {
         "title": "beancord",
         "desc": "(kind of abandoned) custom discord client. Will probably return in the future.",
         "href":"projects/beancord",
         "icons": "html,js,css,electron"
     },
-    4: {
+    5: {
         "title": "beansuite",
         "desc": "Sorry Larry and Sergei, I stole your document editor >:)",
         "href":"projects/beansuite",
         "icons": "html,js,tailwind,nodejs,express"
     },
-    5: {
+    6: {
         "title": "clock-app",
         "desc": "Simple clock app built using Electron. Should work on all major OS/Architectures as long as they support NodeJS and Electron.",
         "href":"projects/clock-app",
@@ -161,19 +167,19 @@ const projects = {
         "href":"pva-v2",
         "icons": "html,js,tailwind"
     },
-    9: {
+    8: {
         "title": "simplesettings.js",
         "desc": "a small javascript library that makes saving user settings in local storage easy",
         "href": "https://github.com/bean-frog/simplesettings.js",
         "icons": "js"
     },
-    10: {
+    9: {
         "title": "Goober FX",
         "desc": "simple theater sound cue app that I made for a school thing using Electron.",
         "href": "https://github.com/bean-frog/GooberFX",
         "icons": "html,js,tailwind,electron,nodejs"
     },
-     11: {
+     10: {
         "title": "Userscripts",
         "desc": "My collection of userscripts that I've made.",
         "href": "projects/userscripts.html",
@@ -275,7 +281,7 @@ for (const key in projects) {
     div.innerHTML = `
         <div class="flex flex-row items-center">
         <h1 class="text-xl font-bold">${item.title}</h1>
-    <img src="https://skillicons.dev/icons?i=${item.icons}" class="m-2 w-fit h-6">
+    <img src="https://skillicons.dev/icons?i=${item.icons}" class="m-2 h-6 w-fit">
 
   </div>
               <h1 class="text-md">${item.desc}</h1>
