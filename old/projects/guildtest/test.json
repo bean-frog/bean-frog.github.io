@@ -1,0 +1,76 @@
+{
+    "game": false,
+    "gamemode": "Oxfords, not Brogues",
+    "mod": "Graeme",
+    "zombie": "",
+    "zombierevealed": true,
+    "leader": "max",
+    "leaderrevealed": true,
+    "killfeed": ["elene-Max s", "joe-max s", "max s-joe", "joe-max s"],
+    "players": [
+        {
+            "name": "max S",
+            "status": "alive",
+            "class": "N/A",
+            "respawntimer": "",
+            "team": "N/A",
+            "points": "40",
+            "lastactivity": "15 Sep"
+
+        },
+        {
+            "name": "joe",
+            "status": "alive",
+            "class": "N/A",
+            "respawntimer": "N/A",
+            "team": "N/A",
+            "points": "50",
+            "lastactivity": "14 Sep"
+
+        },
+        {
+            "name": "rohan",
+            "status": "alive",
+            "class": "N/A",
+            "respawntimer": "N/A",
+            "team": "N/A",
+            "points": "35",
+            "lastactivity": "11 Sep"
+
+        },
+        {
+            "name": "elene",
+            "status": "alive",
+            "class": "N/A",
+            "respawntimer": "N/A",
+            "team": "N/A",
+            "points": "45",
+            "lastactivity": "12 Sep"
+
+        },
+        {
+            "name": "max D",
+            "status": "alive",
+            "class": "N/A",
+            "respawntimer": "N/A",
+            "team": "N/A",
+            "points": "35",
+            "lastactivity": "11 Sep"
+
+        },
+        {
+            "name": "jade",
+            "status": "alive",
+            "class": "N/A",
+            "respawntimer": "N/A",
+            "team": "N/A",
+            "points": "35",
+            "lastactivity": "11 Sep"
+
+        }
+
+        
+    ]
+
+    
+}
