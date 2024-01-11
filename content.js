@@ -189,7 +189,7 @@ const projects = {
         "title": "Github Lookup",
         "desc": "Retrieve info about a Github user through the public api",
         "href": "https://beanfrog.xyz/github-lookup",
-        "icons": "react,talwind,js"
+        "icons": "react,tailwind,js"
     }
 }
 const goober = {
