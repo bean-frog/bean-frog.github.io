@@ -103,6 +103,10 @@ const skills = {
         3: {
          "icon": "ruby",
             "label": "Ruby"
+        },
+         4: {
+         "icon": "rust",
+            "label": "Rust"
         } 
     },
     learning: {
@@ -115,10 +119,6 @@ const skills = {
             "label": "Docker"
         },
         3: {
-            "icon": "rust",
-            "label": "Rust"
-        },
-        4: {
              "icon": "mongodb",
             "label": "MongoDB"
         }
@@ -184,6 +184,12 @@ const projects = {
         "desc": "My collection of userscripts that I've made.",
         "href": "projects/userscripts.html",
         "icons": "js"
+    },
+     10: {
+        "title": "Github Lookup",
+        "desc": "Retrieve info about a Github user through the public api",
+        "href": "https://beanfrog.xyz/github-lookup",
+        "icons": "react,talwind,js"
     }
 }
 const goober = {
