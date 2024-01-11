@@ -185,7 +185,7 @@ const projects = {
         "href": "projects/userscripts.html",
         "icons": "js"
     },
-     10: {
+     11: {
         "title": "Github Lookup",
         "desc": "Retrieve info about a Github user through the public api",
         "href": "https://beanfrog.xyz/github-lookup",
