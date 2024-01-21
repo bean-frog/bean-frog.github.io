@@ -8,7 +8,7 @@
 
 const panels = {
     bio: {
-        "text": "Hello world! I'm <abbr title='pronounced like Graham, yeah its a weird spelling thanks for noticing'>Graeme</abbr>, and I'm currently a Junior (11th grade) in high school. I've been into computers and programming since 6th grade, since my first encounter with HTML in 6th grade. Since then, I've come a long way, expanding into building more robust projects and picking up frontend tools like Tailwind and Vue as well as backend technologies, most notably NodeJS and Express. Outside of VSCode, I love to hang out with my 2 golden retrievers and do stupid stuff my friends. (shoutout to m-nasty u a real one)"
+        "text": "Hello world! I'm <abbr title='pronounced like Graham, yeah its a weird spelling thanks for noticing'>Graeme</abbr>, and I'm currently a Junior (11th grade) in high school. In 6th grade, I was forced to take a computer class where I learned HTML and Scratch, which is what initially sparked my interest in computers. Ever since, I've been expanding my knowledge into frontend development with JS, Tailwind, React, and more. I've also been learning electronics and c++ via the Arduino microcontroller platform. I'm currently learning Rust, Ruby, and Firebase."
     },
     contact: {
         //fa icons
