@@ -22,6 +22,12 @@ const userscripts = {
 		"code":"https://github.com/bean-frog/site-tweaks/blob/main/pausd.schoology.com/quickCourseBar.user.js",
 		"install":"https://github.com/bean-frog/site-tweaks/raw/main/pausd.schoology.com/quickCourseBar.user.js",
 		"desc":`Adds a bar with links to all of your courses under the header. Only works for PAUSD, other schools require modification. <a class="underline" href="https://beanfrog.xyz">contact</a> me if unsure`
+	},
+		5: {
+		"title":"PAUSD schoology slope game overlay",
+		"code":"https://github.com/bean-frog/site-tweaks/blob/main/pausd.schoology.com/addSlopeGame.user.js",
+		"install":"https://github.com/bean-frog/site-tweaks/raw/main/pausd.schoology.com/addSlopeGame.user.js",
+		"desc":`Adds a mostly transparent slope game overlay to PAUSD schoology. works on any other site if you change the @match url at the top.`
 	}
 }
 
