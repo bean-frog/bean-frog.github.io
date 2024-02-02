@@ -55,5 +55,7 @@ var balls = [
     "'You'd better fucking learn swedish' - Joakim Broden",
     "United they're strong, united they're holding the line",
     "no surrender, fight until the end!",
-    "javascriptmaxxing"
+    "javascriptmaxxing",
+    "it was hard to know who was more crazy, me or everyone else",
+    "TOMA TOMA TOMA TOMA"
   ];

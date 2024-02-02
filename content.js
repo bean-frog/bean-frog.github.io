@@ -89,7 +89,11 @@ const skills = {
         4: {
             "icon":"vercel",
             "label": "Vercel"
-        }
+        },
+          5: {
+         "icon": "rust",
+            "label": "Rust"
+        } 
     },
     low: {
         1: {
@@ -103,11 +107,7 @@ const skills = {
         3: {
          "icon": "ruby",
             "label": "Ruby"
-        },
-         4: {
-         "icon": "rust",
-            "label": "Rust"
-        } 
+        }
     },
     learning: {
         1: {
