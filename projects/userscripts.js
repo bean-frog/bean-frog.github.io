@@ -29,7 +29,6 @@ const userscripts = {
 		"install":"https://github.com/bean-frog/site-tweaks/raw/main/pausd.schoology.com/addSlopeGame.user.js",
 		"desc":`Adds a mostly transparent slope game overlay to PAUSD schoology. works on any other site if you change the @match url at the top.`
 	},
-	},
 		6: {
 		"title":"Snap! custom button editor",
 		"code":"https://github.com/bean-frog/snap-custom-buttons/blob/main/snapbuttons.user.js",
