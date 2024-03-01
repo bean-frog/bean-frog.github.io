@@ -8,7 +8,7 @@
 
 const panels = {
     bio: {
-        "text": "Hello world! I'm <abbr title='pronounced like Graham, yeah its a weird spelling thanks for noticing'>Graeme</abbr>, and I'm currently a Junior (11th grade) in high school. In 6th grade, I was forced to take a computer class where I learned HTML and Scratch, which is what initially sparked my interest in computers. Ever since, I've been expanding my knowledge into frontend development with JS, Tailwind, React, and more. I've also been learning electronics and c++ via the Arduino microcontroller platform. I'm currently learning Rust, Ruby, and Firebase."
+        "text": "Hello World! I'm a Junior in high school who loves programming, dogs, and playing games. In 6th grade, I was forced to take a computer class where I learned HTML and Scratch, which is what initially sparked my interest in computers. Ever since, I've been expanding my knowledge into frontend development with JS, Tailwind, React, and more. I've also been learning electronics and c++ via the Arduino microcontroller platform. I'm currently learning Rust, Ruby, and Firebase."
     },
     contact: {
         //fa icons
