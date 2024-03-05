@@ -91,14 +91,14 @@ const skills = {
             "label": "Vercel"
         },
           5: {
-         "icon": "rust",
-            "label": "Rust"
+         "icon": "react",
+            "label": "React"
         } 
     },
     low: {
-        1: {
-            "icon": "react",
-            "label": "React"
+       1: {
+         "icon": "rust",
+            "label": "Rust"
         },
         2: {
             "icon": "vue",
