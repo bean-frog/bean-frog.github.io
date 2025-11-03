@@ -8,8 +8,21 @@
 </head>
 <body>
     <div class="flex flex-col justify-center items-center w-screen h-screen">
-        <h1 class="text-xl font-bold">I promise there is nothing here absolutely nothing at all do not check the source code i promise you will not find anything</h1>
+        <h1 id="text" class="text-xl font-bold"></h1>
         <!--what did i tell you? -->
     </div>
+    <script>
+    const texts = [
+    	"interesting landing page",
+    	"boring landing page",
+    	"bet your life savings on red",
+    	"idk",
+    	"undefined",
+    	"NaN",
+    	"NaN days left until [object Object]!"
+    ]
+    
+    document.getElementById("text").innerText = texts[Math.floor(Math.random()*texts.length)]
+    </script>
 </body>
 </html>
