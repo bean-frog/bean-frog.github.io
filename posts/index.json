@@ -1,8 +1,14 @@
 [
-	{
-		"file": "1.md",
-		"title": "Test post",
-		"date": "2025-05-07",
-		"desc": "a post to test this thing"
-	}
+  {
+    "file": "1.md",
+    "title": "Test post",
+    "date": "2025-05-07",
+    "desc": "a post to test this thing"
+  },
+  {
+    "file": "test-2.md",
+    "title": "Test Blog Post 2",
+    "date": "2026-05-17",
+    "desc": "a second test post to make sure test.sh works"
+  }
 ]
