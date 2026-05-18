@@ -10,5 +10,11 @@
     "title": "Test Blog Post 2",
     "date": "2026-05-17",
     "desc": "a second test post to make sure test.sh works"
+  },
+  {
+    "file": "The Open-Source Live Lighting Experience.md",
+    "title": "The Open-Source Live Lighting Experience",
+    "date": "2026-05-17",
+    "desc": "How BNFG Lighting came to be"
   }
 ]
