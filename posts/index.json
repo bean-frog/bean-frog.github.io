@@ -4,5 +4,11 @@
     "title": "The Open-Source Live Lighting Experience",
     "date": "2026-05-17",
     "desc": "How BNFG Lighting came to be"
+  },
+  {
+    "file": "american airlines.md",
+    "title": "Pulling data from the plane on any American Airlines flight",
+    "date": "2026-05-19",
+    "desc": "How I created bean-frog/aa-flight, a simple script to fetch plane telemetry using the American Airlines onboard wifi"
   }
 ]
