@@ -10,5 +10,11 @@
     "title": "Pulling data from the plane on any American Airlines flight",
     "date": "2026-05-19",
     "desc": "How I created bean-frog/aa-flight, a simple script to fetch plane telemetry using the American Airlines onboard wifi"
+  },
+  {
+    "file": "What a Losing Sniper Bot Taught Me.md",
+    "title": "What a Losing Sniper Bot Taught Me",
+    "date": "2026-09-29",
+    "desc": "My first experimentation with a Solana coin sniper bot, and what I learned"
   }
 ]
